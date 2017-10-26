@@ -19,6 +19,32 @@ Lernziel für heute:
 
 ### Was ist Software?
 
+Der Begriff Software ist weitreichender als das deutsche „Programm“, da zu einer Software auch 
+die Dokumentation und alle nötigen Elemente, die für den Betrieb notwendig sind, gehören, wie 
+zum Beispiel Datenbankskripte und Betriebshandbücher. Man kann sich einen Eisberg vorstellen u
+nd in der Spitze, dem sichtbaren Teil, steht „Software“. Alles was unter dem Wasser liegt gehört 
+aber auch dazu.  
+Kurz erklärt besteht eine Software aus Programmen, zugehörigen Daten und Dokumentationen, die 
+gemeinsam, mit Hilfe eines Computers, Aufgaben erledigen.  
+Eine Software besteht aus zwei Teilen, dem Softwaresystem und dem -produkt. Das System ist der 
+Kern oder das Herz der Software, also der Teil, den ein Entwickler sieht. Das Produkt ist die 
+Schale, oder äußere Schicht, die für den Nutzer erstellt wurde, um den Kern nutzen zu können.  
+Es gibt verschiedene Arten von Software. Alles beginnt bei der Systemsoftware, auch dem Betriebssystem 
+genannt. Es ist die Schnittstelle zwischen Hard- und Software. Darüber kommen die eingebetteten Systeme, 
+die Geräte steuern, um zum Beispiel einen Drucker oder Monitor zu nutzen. Dann gibt es Anwendungssoftware, 
+wie Office oder andere Büroanwendungen. Es gibt Standardsoftware, die für jeden Kunden individuell 
+angepasst werden kann, darunter Fallen Programme wie SAP. Als letzte Kundensoftware haben wir individuelle 
+Software, die extra für einen Kunden entwickelt wurde. Sie wird exakt auf Bedürfnis und Anspruch 
+angepasst, ist aber auch dementsprechend teuer, durch sehr zeitaufwändige Entwicklung. Klassisches 
+Beispiel wäre eine Software zur Unterstützung spezieller Geschäftsprozesse. Zum Schluss gibt es noch 
+Echtzeitsysteme, die man in Flugzeugen, Kraftwerken und Krankenhäusern findet und Informationssysteme, 
+die meist aus webbasierten Datenbanken bestehen.  
+Da Software immateriell ist kann man den Entwicklungsfortschritt nicht objektiv messen. Dafür verschleißt 
+sie nicht. Aber auch Software erreicht irgendwann einen Zeitpunkt, an dem sie ausgetauscht oder 
+erneuert werden muss. Diese Alterung kommt von stetiger Änderung im Einsatzgebiet und muss sich an 
+diese Änderungen anpassen.
+
+
 ### Software Projekte
 **Was ist ein Projekt?**
 
@@ -35,7 +61,77 @@ Ein Projekt ist ein <span style="color:red">Vorhaben</span>, das im wesentlichen
 
 ### Klassischer Software Lebenszyklus
 
+Der klassische Software Lebenszyklus besteht aus <span style="color:red">7 Phasen</span>. 
+
+| Phasen | Ergebnisse |
+|:------ |:---------- |
+| Problem | |
+| Requirements Engineering | Anforderungsspezifikation |
+| Systemanalyse | Systemmodell |
+| Softwareentwurf | Entwurfsspezifikation |
+| Implementierung | Entwickelte Software |
+| Test | Testdokumentation |
+| Wartung & Weiterentwicklung | Betriebsbereite Software |
+
+#### Phasen eines Vorgehensmodells
+
+##### Prozessmanagement
+Wie organisiert man die Arbeit einer Softwareabteilung, um regelmäßig kostengünstige und hochwertige Resultate termingerecht zu erzielen?
+
+##### Anforderungsermittlung
+Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?
+
+##### Analyse
+Wie beschreibt man dann diese Eigenschaften?
+
+##### Entwurf
+Wie strukturiert man die Software so, dass sie sich leicht bauen und flexibel verändern lässt?
+
+##### Implementierung
+Wie realisiert man effizient und fehlerfrei die Software?
+
+##### Wartung
+Wie verändert man Software, die keine solche Struktur hat oder deren Struktur man nicht (mehr) versteht?
+
+##### Test
+Wie vermeidet man Mängel in Software oder deckt sie auf?
+
 ### Rollen in der Softwareentwicklung
+
+#### Begriff
+* Eine Rolle beschreibt eine Menge von zusammengehörigen Aufgaben und Befugnissen (oft auch notwendige Qualiﬁkationen)
+* Eine Rolle wird von einer oder mehreren Personen wahrgenommen
+* Eine Person kann mehrere Rollen einnehmen
+* Nicht in jeder Softwareentwicklung treten alle Rollen auf, abhängig von Art und Größe des Projekts
+
+#### Ziel
+* Kooperation zwischen den beteiligten Personen durch Verständnis für die Aufgaben
+
+#### Akteure
+| Akteur | Aufgabe |
+|:------ |:---------- |
+| Auftraggeber | Bezahlen das Projekt, haben unterschiedliche Bedürfnisse |
+| Benutzer | Benutzen die Software</br>Manchmal mit Auftraggeber identisch |
+| Manager | Treffen während der Entwicklung die organisatorischen Entscheidungen |
+| Berater | Unterstützen den Kunden in der Definition der Anforderungen |
+| Entwickler | Definieren und entwickeln Software</br>in verschiedenen Rollen aufgeteilt(d.h. mit verschiedenartigen Aufgaben)|
+
+#### Rollen bei der Auftragsarbeit
+Ein Manager gibt einen Auftrag an ein Auftraggeber, diese Person bespricht den Auftrag mit einem Fachexperten und einem Jurist.</br> Der Auftraggeber sucht sich ein Unternehmen oder eine einzelne Person, der sogenannte Auftragnehmer, mit der wird der Auftrag besprochen.</br> Der Auftragnehmer bespricht den Auftrag ebenfalls mit einem Juristen und einem Computerspezialist. Nach der Besprechung gibt er den Auftrag an einen Projektleiter, dieser kümmert sich dann um das gewünschte Projekt. </br>
+Rücksprache gibt es weiterhin unter den ganzen Beteiligten. 
+
+#### Typische Rollen 
+[Siehe auch](#/VL1?id=rollen-aus-informatik-perspektive)
+
+* Technischer Projektleiter
+* Kaufmännischer Projektleiter
+* Analytiker
+* Entwickler
+* Konfigurationmanger
+* Sicherheitsexperte
+* Softwarearchitekt
+* Tester 
+* Qualitätmanager
 
 ### Rollen aus Informatik-Perspektive
 
