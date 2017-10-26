@@ -170,13 +170,13 @@ Weitere Rollen ([Quelle](http://dewik.de/content/SE_Zusammenfassung_Kap_4_7.pdf 
 
 ** Kriterien **
 
-Die Qualität von Software kann nach der ISO 25010 nach folgenden Kriterien bewertet werden: 
+Die Qualität von Software kann nach folgenden Kriterien der ISO 25010 bewertet werden: 
 
 | Kriterium       | Beispiele                                |
 | :-------------- | :--------------------------------------- |
 | Übertragbarkeit | <ul><li>Anpassungsfähigkeit</li><li>Installierbarkeit</li><li>Austauschbarkeit </li></ul> |
 | Funktionalität  | <ul><li>Vollständigkeit</li><li>Korrektheit</li><li>Angemessenheit</li></ul> |
-| Kompabilität    | <ul><li>Koexistenz</li><li>Interoperabilität</li></ul> |
+| Kompatibilität  | <ul><li>Koexistenz</li><li>Interoperabilität</li></ul> |
 | Benutzbarkeit   | <ul><li>Angemessenheit Erkennbarkeit, Erlernbarkeit</li><li>Erlernbarkeit</li><li>Bedienbarkeit</li><li>Fehlertoleranz gegenüber Anwenderfehler</li><li>Ästhetik der Benutzeroberfläche</li><li>Barrierefreiheit</li></ul> |
 | Zuverlässigkeit | <ul><li>Ausgereiftheit</li><li>Verfügbarkeit</li><li>Fehlertoleranz</li><li>Wiederherstellbarkeit</li></ul> |
 | Sicherheit      | <ul><li>Vertraulichkeit</li><li>Integrität</li><li>Nachweisbarkeit</li><li>Verantwortlichkeit</li><li>Authentizität</li></ul> |
@@ -192,7 +192,7 @@ Aus jeder Perspektive sind unterschiedliche Kriterien wichtig.
 * Für den Entwickler ist Modularität und Einfache Bearbeitung wichtig, dabei achtet er auf Anpassbarkeit und Freiheit von Fehlern.
 * Für den Kunden ist es zum einen wichtig, dass die Entwicklung möglichst schnell und Effizient entwickelt wird ohne große Kosten. 
 	Dabei sollte das Programm zuverlässig arbeiten und den Ansprüchen entsprechen.
-* Der Endbenutzer achtet auf eine einfache und intutitive Bedienung, welche er nach kurzer Zeit erlernen kann. Falls dies nicht der Fall sein sollte achtet der Benutzer auf eine gute Dokumentation.
+* Der Endbenutzer achtet auf eine einfache und intuitive Bedienung, welche er nach kurzer Zeit erlernen kann. Falls dies nicht der Fall sein sollte achtet der Benutzer auf eine gute Dokumentation.
 
 ** Interessenkonflikte **
 
@@ -200,19 +200,19 @@ Nicht alle Kriterien lassen sich zusammen vereinen.
 * Funktionalität vs. Benutzbarkeit 
 	Kriterien wie Funktionalität lässt sich nicht gut mit Benutzbarkeit zusammen vereinen, da ein Programm mit vielen Funktionen schwerer zu erlernen ist. Ein leicht zu erlernendes Programm hat daher wenige Funktionen. 
 * Funktionalität vs. schnelle Entwicklung 
-	Ein umfangreiches Programm kann nicht schnell entwickelt werden da für viel Funktionalität viel Zeit zum implementieren in Anspruch genommen wird.
+	Ein umfangreiches Programm kann nicht schnell entwickelt werden da für viele Funktionalitäten viel Zeit zum Implementieren in Anspruch genommen wird.
 * Kosten vs. Robustheit 
 	Wenn ein Programm möglichst günstig sein soll, spart man an der Qualitätssicherung und das Programm hat eine geringere Fehlertoleranz.
 * Kosten vs. Wiederverwendbarkeit
 	Den Code eines Programms möglichst wiederverwendbar zu machen kostet in der Regel mehr Geld.
 * Effizienz vs. Portabilität 
-	Programme arbeiten meist am effitientesten, wenn sie direkt für ein bestimmtes Betriebssystem geschrieben werden.
-* Abwärtskompabilität vs. Lesbarkeit
-	Ältere Versionen verlangen meißt Sonderfälle, die die Lesbarket einschränken/erschweren.
+	Programme arbeiten meist am effizientesten, wenn sie direkt für ein bestimmtes Betriebssystem geschrieben werden.
+* Abwärtskompatibilität vs. Lesbarkeit
+	Ältere Versionen verlangen meist Sonderfälle, die die Lesbarkeit einschränken/erschweren.
 	
 ### Probleme in der Software Entwicklung
 
-In der Entwicklung von Software treten viele Probleme auf. Diese führen entweder zum Abbruch des Projektes oder zur "Ramensprengung" in den Bereichen Zeit und Geld.
+In der Entwicklung von Software treten viele Probleme auf. Diese führen entweder zum Abbruch des Projektes oder zur "Rahmensprengung" in den Bereichen Zeit und Geld.
 Stand 2010:
 * Abbruch der Entwicklung ohne verwertbares Ergebnis: 18%
 * Nach Beendigung Termin- und / oder Budgetüberschreitung: 53%
@@ -220,7 +220,7 @@ Stand 2010:
 
 ** Ursachen der Probleme **
 
-Organistation: 
+Organisation: 
 * Unvollständige Anforderungen und deren häufige Änderung
 * schlecht definierte Anforderungen (unklare Zielvorstellung)
 * Unrealistische Zeit- und Kostenpläne 
@@ -244,7 +244,7 @@ Methodik:
 
 ** Faktoren für den Erfolg des Projektes **
 
-Um die Probleme in den Griff zu bekommen müssen sich die Betroffenen am meißten einbringen, da sie die meißten Probleme verursachen.
+Um die Probleme in den Griff zu bekommen müssen sich die Betroffenen am meisten einbringen, da sie die meisten Probleme verursachen.
 Diese sollten:
 * Realistische Erwartungen stellen
 * Management unterstützen 
@@ -254,7 +254,7 @@ Diese sollten:
 Beim Prozess sollte man auf folgendes achten um die Probleme zu vermeiden:
 * Sauber planen und organisieren 
 * Kleine Meilensteine setzen
-* Errecichbare Ziele vereinbaren 
+* Erreichbare Ziele vereinbaren 
 
 Die Beteiligten der Entwicklung sollten auf folgendes achten:
 * Aufgaben eindeutig verteilen 
