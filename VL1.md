@@ -19,24 +19,41 @@ Lernziel für heute:
 
 ### Was ist Software?
 
-* unter Software versteht man mehr als nur das deutsche Wort "Programm", da zu einer Software auch die Donkumentation sowie alle nötogen Elemente, die das Programm zum laufen bringen.
-    * darunter fallen zum Beispiel Datenbankskripte und Betriebshandbücher
-* eine Software kann man wie ein Eisberg vergleichen, bei dem man nur die Spitze sieht obwohl alles unterm Wasser auch dazu gehört
-* Softwaresystem und -produkt sind die zwei Teile aus die eine Software besteht
-* das System ist das Herz der Software, welches der Entwickler sieht
-* das Produkt ist die Schale, die für den Nutzer erstelt wurde, um den Kern zu benutzen
-* alles beginnt bei der Systemsoftware, oder auch bekannt als Betriebssystem, die als Schnittstelle zwischen Soft- und Hardware darstellt
-* darüber kommen die eingebetteten Systeme, die die Geräte steuern, wie Drucker oder Monitore, sodass man diese nutzen kann
-* es gibt Büroanwendungen wie Office
-* Standardsoftware bedeckt mit ihren Funktionen ein Gebiet, die dann erworben werden kann
-* im Gegensatz gibts es die Individualsoftware, die spezifisch für den Kunden erstellt wird
-    * diese Software ist dementsprechend teuer und die Entwicklung ist zeitaufwändig
-    * ein Beispiel wäre eine Software, die für spezielle Geschäftsprozesse hilfreich ist
-* Echtzeitsysteme sind meist webbasierte Datenbanken, die in Flugzeugen, Kraftwerken und Krankenhäusern benutzt werden
-* der Entwicklungsfortschritt einer Software kann man nicht objektiv messen, da sie immateriell ist
-* dafür verschleißt sie nicht
-    * dennnoch muss Software ausgetauscht oder erneuert werden, wenn die Technologie zu veraltet ist oder es änderungen im Einsatzgebiet gibt
- 
+<center>__Software ist ein umfassenderer Begriff als "Programm"__</center>
+<center>
+![Eisberg](./images/image4.jpeg)
+</center>
+
+* Software besteht ebenfalls aus der zugehörigen Dokumentation
+* Software enthält alle Elemente, die für den Betrieb notwendig sind. z.B. Datenbankskripte, Dokumentation, Betriebshandbücher, usw.
+* „Programme, zugehörige Daten und Dokumentationen, die es zusammengefasst erlauben, mit Hilfe eines Computers Aufgaben zu erledigen.“
+
+<dl>
+  <dt>Softwaresystem</dt>
+  <dd>Ein System, dessen Bestandteile)und Elemente aus Software bestehen („innere“ Sicht des Softwareentwicklers)</dd>
+  <dt>Softwareprodukt</dt>
+  <dd>Ein für einen Auftraggeber erstelltes Softwaresystem („äußere“ Sicht)</dd>
+</dl>
+
+<center>
+![Software](./images/image5.jpeg)
+</center>
+
+#### Arten von Software
+
+* Systemsoftware (z.B. Betriebssystem)
+* Anwendungssoftware (z.B. Büroanwendungen, Office)
+* Standardsoftware (anpassbare Software für anonyme Kunden, z.B. SAP)
+* Individualsoftware
+	* Speziell für einen Kunden/Auftraggeber entwickelte Software
+	* Exakt auf die Bedürfnisse des Kunden zugeschneidertes Produkt
+	* Relativ zeitaufwändige und teure Entwicklung
+	* Typische Beispiele: Software zur Unterstützung spezieller Geschäftsprozesse
+* Eingebettete Systeme (Steuerungssoftware für Geräte)
+* Echzeitsysteme (z.B. Flugüberwachung und Kraftwerkssteuerung)
+* Informationssysteme (datenbankgestützte Verwaltung von Information), oft webbasiert
+
+
 ### Software Projekte
 
 **Was ist ein Projekt?**
@@ -54,40 +71,30 @@ Ein Projekt ist ein <span style="color:red">Vorhaben</span>, das im Wesentlichen
 
 ### Klassischer Software Lebenszyklus
 
-Der klassische Software Lebenszyklus besteht aus <span style="color:red">7 Phasen</span>. 
+Die klassische Softwareentwicklung wird durch das <span style="color:red">Wassefall-Modell</span> mit 7 Phasen beschrieben:
 
-| Phasen | Ergebnisse |
-|:------ |:---------- |
-| Problem | |
-| Requirements Engineering | Anforderungsspezifikation |
-| Systemanalyse | Systemmodell |
-| Softwareentwurf | Entwurfsspezifikation |
-| Implementierung | Entwickelte Software |
-| Test | Testdokumentation |
-| Wartung & Weiterentwicklung | Betriebsbereite Software |
+<center>
+![Wasserfall](./images/image7.png)
+</center>
 
-#### Phasen eines Vorgehensmodells
+#### Typische Phasen in der Softwareentwicklung
 
-##### Prozessmanagement
-Wie organisiert man die Arbeit einer Softwareabteilung, um regelmäßig kostengünstige und hochwertige Resultate termingerecht zu erzielen?
-
-##### Anforderungsermittlung
-Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?
-
-##### Analyse
-Wie beschreibt man dann diese Eigenschaften?
-
-##### Entwurf
-Wie strukturiert man die Software so, dass sie sich leicht bauen und flexibel verändern lässt?
-
-##### Implementierung
-Wie realisiert man effizient und fehlerfrei die Software?
-
-##### Wartung
-Wie verändert man Software, die keine solche Struktur hat oder deren Struktur man nicht (mehr) versteht?
-
-##### Test
-Wie vermeidet man Mängel in Software oder deckt sie auf?
+<dl>
+  <dt>Prozessmanagement</dt>
+  <dd>Wie organisiert man die Arbeit einer Softwareabteilung, um regelmäßig kostengünstige und hochwertige Resultate termingerecht zu erzielen?</dd>
+  <dt>Anforderungsermittlung</dt>
+  <dd>Wie findet man heraus, welche Eigenschaften (insbesondere Funktionalität) die zu konstruierende Software haben soll?</dd>
+  <dt>Analyse</dt>
+  <dd>Wie beschreibt man dann diese Eigenschaften?</dd>
+  <dt>Entwurf</dt>
+  <dd>Wie strukturiert man die Software so, dass sie sich leicht bauen und flexibel verändern lässt?</dd>
+  <dt>Implementierung</dt>
+  <dd>Wie realisiert man effizient und fehlerfrei die Software?</dd>
+  <dt>Wartung</dt>
+  <dd>Wie verändert man Software, die keine solche Struktur hat oder deren Struktur man nicht (mehr) versteht?</dd>
+  <dt>Test</dt>
+  <dd>Wie vermeidet man Mängel in Software oder deckt sie auf?</dd>
+</dl>
 
 ### Rollen in der Softwareentwicklung
 
@@ -110,21 +117,16 @@ Wie vermeidet man Mängel in Software oder deckt sie auf?
 | Entwickler | Definieren und entwickeln Software</br>in verschiedenen Rollen aufgeteilt (d.h. mit verschiedenartigen Aufgaben)|
 
 #### Rollen bei der Auftragsarbeit
-Ein Manager gibt einen Auftrag an ein Auftraggeber, diese Person bespricht den Auftrag mit einem Fachexperten und einem Jurist.</br> Der Auftraggeber sucht sich ein Unternehmen oder eine einzelne Person, der sogenannte Auftragnehmer, mit der wird der Auftrag besprochen.</br> Der Auftragnehmer bespricht den Auftrag ebenfalls mit einem Juristen und einem Computerspezialist. Nach der Besprechung gibt er den Auftrag an einen Projektleiter, dieser kümmert sich dann um das gewünschte Projekt. </br>
-Rücksprache gibt es weiterhin unter den ganzen Beteiligten. 
+
+<center>
+![Auftragsarbeit](./images/image8.jpeg)
+</center>
 
 #### Typische Rollen 
-[Siehe auch](#/VL1?id=rollen-aus-informatik-perspektive)
 
-* Technischer Projektleiter
-* Kaufmännischer Projektleiter
-* Analytiker
-* Entwickler
-* Konfigurationsmanager
-* Sicherheitsexperte
-* Softwarearchitekt
-* Tester 
-* Qualitätsmanager
+<center>
+![Typische Rollen](./images/image9.png)
+</center>
 
 ### Rollen aus Informatik-Perspektive
 
@@ -170,17 +172,9 @@ Weitere Rollen ([Quelle](http://dewik.de/content/SE_Zusammenfassung_Kap_4_7.pdf 
 
 ** Kriterien **
 
-Die Qualität von Software kann nach folgenden Kriterien der ISO 25010 bewertet werden: 
-
-| Kriterium       | Beispiele                                |
-| :-------------- | :--------------------------------------- |
-| Übertragbarkeit | <ul><li>Anpassungsfähigkeit</li><li>Installierbarkeit</li><li>Austauschbarkeit </li></ul> |
-| Funktionalität  | <ul><li>Vollständigkeit</li><li>Korrektheit</li><li>Angemessenheit</li></ul> |
-| Kompatibilität  | <ul><li>Koexistenz</li><li>Interoperabilität</li></ul> |
-| Benutzbarkeit   | <ul><li>Angemessenheit Erkennbarkeit, Erlernbarkeit</li><li>Erlernbarkeit</li><li>Bedienbarkeit</li><li>Fehlertoleranz gegenüber Anwenderfehler</li><li>Ästhetik der Benutzeroberfläche</li><li>Barrierefreiheit</li></ul> |
-| Zuverlässigkeit | <ul><li>Ausgereiftheit</li><li>Verfügbarkeit</li><li>Fehlertoleranz</li><li>Wiederherstellbarkeit</li></ul> |
-| Sicherheit      | <ul><li>Vertraulichkeit</li><li>Integrität</li><li>Nachweisbarkeit</li><li>Verantwortlichkeit</li><li>Authentizität</li></ul> |
-| Wartbarkeit     | <ul><li>Modularität</li><li>Wiederverwendbarkeit</li><li>Analysierbarkeit</li><li>Modifizierbarkeit</li><li>Prüfbarkeit</li></ul> |
+<center>
+![Qualitätskriterien](./images/image11.png)
+</center>
 
 ** Perspektiven **
 
@@ -194,23 +188,31 @@ Aus jeder Perspektive sind unterschiedliche Kriterien wichtig.
 	Dabei sollte das Programm zuverlässig arbeiten und den Ansprüchen entsprechen.
 * Der Endbenutzer achtet auf eine einfache und intuitive Bedienung, welche er nach kurzer Zeit erlernen kann. Falls dies nicht der Fall sein sollte achtet der Benutzer auf eine gute Dokumentation.
 
+<center>
+![Perspektive](./images/image12.png)
+</center>
+
 ** Interessenkonflikte **
 
 Nicht alle Kriterien lassen sich zusammen vereinen. 
-* Funktionalität vs. Benutzbarkeit 
+* __Funktionalität vs. Benutzbarkeit:__<br>
 	Kriterien wie Funktionalität lässt sich nicht gut mit Benutzbarkeit zusammen vereinen, da ein Programm mit vielen Funktionen schwerer zu erlernen ist. Ein leicht zu erlernendes Programm hat daher wenige Funktionen. 
-* Funktionalität vs. schnelle Entwicklung 
+* __Funktionalität vs. schnelle Entwicklung:__<br>
 	Ein umfangreiches Programm kann nicht schnell entwickelt werden da für viele Funktionalitäten viel Zeit zum Implementieren in Anspruch genommen wird.
-* Kosten vs. Robustheit 
+* __Kosten vs. Robustheit:__<br>
 	Wenn ein Programm möglichst günstig sein soll, spart man an der Qualitätssicherung und das Programm hat eine geringere Fehlertoleranz.
-* Kosten vs. Wiederverwendbarkeit
+* __Kosten vs. Wiederverwendbarkeit:__<br>
 	Den Code eines Programms möglichst wiederverwendbar zu machen kostet in der Regel mehr Geld.
-* Effizienz vs. Portabilität 
+* __Effizienz vs. Portabilität:__<br>
 	Programme arbeiten meist am effizientesten, wenn sie direkt für ein bestimmtes Betriebssystem geschrieben werden.
-* Abwärtskompatibilität vs. Lesbarkeit
+* __Abwärtskompatibilität vs. Lesbarkeit:__<br>
 	Ältere Versionen verlangen meist Sonderfälle, die die Lesbarkeit einschränken/erschweren.
 	
 ### Probleme in der Software Entwicklung
+
+<center>
+![Softwareentwicklung](./images/image14.png)
+</center>
 
 In der Entwicklung von Software treten viele Probleme auf. Diese führen entweder zum Abbruch des Projektes oder zur "Rahmensprengung" in den Bereichen Zeit und Geld.
 Stand 2010:
@@ -261,6 +263,10 @@ Die Beteiligten der Entwicklung sollten auf folgendes achten:
 * Team aus kompetenten Mitarbeitern zusammenstellen 
 * Zielorientiertheit des Teams fördern
 
+<center>
+![Schlüsselfaktoren](./images/image15.png)
+</center>
+
 ### Softwarekosten
 
 * Wartung ist teurer als die Entwicklung
@@ -276,7 +282,19 @@ Dies ist problematisch, da die Kosten zur Behebung der Fehler mit jedem weiteren
 
 Bei einem Projekt, bei dem mehr als eine Person die Software entwickelt, entstehen mehr als eine Version der Software. Software Engineering hilft dabei, dass Fehler nicht entstehen oder die zu beseitigen.
 
+<center>
+![Fehlerhäufigkeit](./images/image16.png)
+</center>
+
+<center>
+![Fehlerkosten](./images/image17.png)
+</center>
+
 ### Was ist Software Engineering?
+
+<center>
+![Software Engineering](./images/image18.png)
+</center>
 
 Software Engineering ist ein Teilgebiet der praktischen Informatik, die das Software Management, die Entwicklung und Qualitätssicherung zusammenfasst.
 Weitere Themen die unter Software Engineering fallen sind: 
@@ -291,6 +309,10 @@ Software...
 * ... Configuration Management
 * ... Engineering Process
 
+<center>
+![Software Engineering](./images/image19.png)
+</center>
+
 Durch Software Engineering und die Verwendung von Methoden, Werkzeugen und Vorgehensmodellen werden die Kosten, die bei der Entwicklung, Wartung und Erweiterung anfallen, reduziert mit der Erhaltung von hoher Qualität.
 
 **Ziele des Software Engineerings**
@@ -301,6 +323,10 @@ Durch Software Engineering und die Verwendung von Methoden, Werkzeugen und Vorge
 
 Insgesamt steht die Qualität im Mittelpunkt, es wird mit (agilen) Vorgehensmodellen gearbeitet, die Entwicklung wird methodisch durchgeführt und es werden Softwarewerkzeuge zur Beherrschung der Komplexität benutzt.
 
+<center>
+![Software Engineering](./images/image20.png)
+</center>
+
 ### Zusammenfassung
 * Software Engineering ist eine <span style="color:red">Ingenieur-Disziplin</span>, die sich mit allen Aspekten der Softwareentwicklung und Softwarewartung beschäftigt.
 * Ziel des Software Engineerings ist die Erreichung einer <span style="color:red">hohen Softwarequalität</span> und die <span style="color:red">Minimierung der Softwarekosten</span>.
@@ -309,3 +335,7 @@ Insgesamt steht die Qualität im Mittelpunkt, es wird mit (agilen) Vorgehensmode
 * Software Ingenieure arbeiten in <span style="color:red">Teams</span> in Software Projekten methodisch und strukturiert und <span style="color:red">kommunizieren</span> mit Kunden und Teammitgliedern
 * Software Ingenieure beherrschen die Technik und lassen sich nicht von der Technik beherrschen
 * Der <span style="color:red">Softwareentwicklungsprozess besteht aus Phasen</span>, die bei der Entwicklung des Softwareprodukts involviert sind. Die grundlegenden Phasen sind <span style="color:red">*Analyse, Entwurf, Implementierung, Integration, Test, Wartung und Weiterentwicklung*</span>.
+
+<center>
+![Ende](./images/image21.png)
+</center>
