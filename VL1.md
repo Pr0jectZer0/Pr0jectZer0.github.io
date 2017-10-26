@@ -19,32 +19,26 @@ Lernziel für heute:
 
 ### Was ist Software?
 
-Der Begriff Software ist weitreichender als das deutsche „Programm“, da zu einer Software auch 
-die Dokumentation und alle nötigen Elemente, die für den Betrieb notwendig sind, gehören, wie 
-zum Beispiel Datenbankskripte und Betriebshandbücher. Man kann sich einen Eisberg vorstellen und in der Spitze, dem sichtbaren Teil, steht „Software“. Alles was unter dem Wasser liegt gehört 
-aber auch dazu.  
-Kurz erklärt besteht eine Software aus Programmen, zugehörigen Daten und Dokumentationen, die 
-gemeinsam, mit Hilfe eines Computers, Aufgaben erledigen.  
-Eine Software besteht aus zwei Teilen, dem Softwaresystem und dem -produkt. Das System ist der 
-Kern oder das Herz der Software, also der Teil, den ein Entwickler sieht. Das Produkt ist die 
-Schale, oder äußere Schicht, die für den Nutzer erstellt wurde, um den Kern nutzen zu können.  
-Es gibt verschiedene Arten von Software. Alles beginnt bei der Systemsoftware, auch dem Betriebssystem 
-genannt. Es ist die Schnittstelle zwischen Hard- und Software. Darüber kommen die eingebetteten Systeme, 
-die Geräte steuern, um zum Beispiel einen Drucker oder Monitor zu nutzen. Dann gibt es Anwendungssoftware, 
-wie Office oder andere Büroanwendungen. Es gibt Standardsoftware, die für jeden Kunden individuell 
-angepasst werden kann, darunter Fallen Programme wie SAP. Als letzte Kundensoftware haben wir individuelle 
-Software, die extra für einen Kunden entwickelt wurde. Sie wird exakt auf Bedürfnis und Anspruch 
-angepasst, ist aber auch dementsprechend teuer, durch sehr zeitaufwändige Entwicklung. Klassisches 
-Beispiel wäre eine Software zur Unterstützung spezieller Geschäftsprozesse. Zum Schluss gibt es noch 
-Echtzeitsysteme, die man in Flugzeugen, Kraftwerken und Krankenhäusern findet und Informationssysteme, 
-die meist aus webbasierten Datenbanken bestehen.  
-Da Software immateriell ist kann man den Entwicklungsfortschritt nicht objektiv messen. Dafür verschleißt 
-sie nicht. Aber auch Software erreicht irgendwann einen Zeitpunkt, an dem sie ausgetauscht oder 
-erneuert werden muss. Diese Alterung kommt von stetiger Änderung im Einsatzgebiet und muss sich an 
-diese Änderungen anpassen.
-
-
+* unter Software versteht man mehr als nur das deutsche Wort "Programm", da zu einer Software auch die Donkumentation sowie alle nötogen Elemente, die das Programm zum laufen bringen.
+    * darunter fallen zum Beispiel Datenbankskripte und Betriebshandbücher
+* eine Software kann man wie ein Eisberg vergleichen, bei dem man nur die Spitze sieht obwohl alles unterm Wasser auch dazu gehört
+* Softwaresystem und -produkt sind die zwei Teile aus die eine Software besteht
+* das System ist das Herz der Software, welches der Entwickler sieht
+* das Produkt ist die Schale, die für den Nutzer erstelt wurde, um den Kern zu benutzen
+* alles beginnt bei der Systemsoftware, oder auch bekannt als Betriebssystem, die als Schnittstelle zwischen Soft- und Hardware darstellt
+* darüber kommen die eingebetteten Systeme, die die Geräte steuern, wie Drucker oder Monitore, sodass man diese nutzen kann
+* es gibt Büroanwendungen wie Office
+* Standardsoftware bedeckt mit ihren Funktionen ein Gebiet, die dann erworben werden kann
+* im Gegensatz gibts es die Individualsoftware, die spezifisch für den Kunden erstellt wird
+    * diese Software ist dementsprechend teuer und die Entwicklung ist zeitaufwändig
+    * ein Beispiel wäre eine Software, die für spezielle Geschäftsprozesse hilfreich ist
+* Echtzeitsysteme sind meist webbasierte Datenbanken, die in Flugzeugen, Kraftwerken und Krankenhäusern benutzt werden
+* der Entwicklungsfortschritt einer Software kann man nicht objektiv messen, da sie immateriell ist
+* dafür verschleißt sie nicht
+    * dennnoch muss Software ausgetauscht oder erneuert werden, wenn die Technologie zu veraltet ist oder es änderungen im Einsatzgebiet gibt
+ 
 ### Software Projekte
+
 **Was ist ein Projekt?**
 
 Ein Projekt ist ein <span style="color:red">Vorhaben</span>, das im Wesentlichen durch die <span style="color:red">Einmaligkeit der Bedingungen in ihrer Gesamtheit</span> gekennzeichnet ist, wie z.B.
