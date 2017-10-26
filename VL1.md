@@ -1,6 +1,6 @@
 ﻿---
 title: "Vorlesung 1: Einleitung"
-author: "Jonas Posselt"
+authors: "Jonas Posselt"
 date: "21/10/2017"
 ---
 
@@ -21,8 +21,7 @@ Lernziel für heute:
 
 Der Begriff Software ist weitreichender als das deutsche „Programm“, da zu einer Software auch 
 die Dokumentation und alle nötigen Elemente, die für den Betrieb notwendig sind, gehören, wie 
-zum Beispiel Datenbankskripte und Betriebshandbücher. Man kann sich einen Eisberg vorstellen u
-nd in der Spitze, dem sichtbaren Teil, steht „Software“. Alles was unter dem Wasser liegt gehört 
+zum Beispiel Datenbankskripte und Betriebshandbücher. Man kann sich einen Eisberg vorstellen und in der Spitze, dem sichtbaren Teil, steht „Software“. Alles was unter dem Wasser liegt gehört 
 aber auch dazu.  
 Kurz erklärt besteht eine Software aus Programmen, zugehörigen Daten und Dokumentationen, die 
 gemeinsam, mit Hilfe eines Computers, Aufgaben erledigen.  
@@ -48,13 +47,13 @@ diese Änderungen anpassen.
 ### Software Projekte
 **Was ist ein Projekt?**
 
-Ein Projekt ist ein <span style="color:red">Vorhaben</span>, das im wesentlichen durch die <span style="color:red">Einmaligkeit der Bedingungen in ihrer Gesamtheit</span> gekennzeichnet ist, wie z.B.
+Ein Projekt ist ein <span style="color:red">Vorhaben</span>, das im Wesentlichen durch die <span style="color:red">Einmaligkeit der Bedingungen in ihrer Gesamtheit</span> gekennzeichnet ist, wie z.B.
 * Zielvorgabe
 * Zeitliche, finanzielle, personelle oder andere Begrenzungen
 
 | Projektgröße | Kriterien | Beispiele |
 |:------------ |:--------- |:--------- |
-| Light | Bis 6 Personen<br>0-8 Personen-Monate (PM)<br>Technologien: <5 | Rechenprobleme, Alogithmen|
+| Light | Bis 6 Personen<br>0-8 Personen-Monate (PM)<br>Technologien: <5 | Rechenprobleme, Algorithmen|
 | Medium | 10-30 Personen<br>9-24 PM<br>Technologien: 5-12 | Buchhaltung, Lagerverwaltung |
 | Heavy | 50-100 Personen<br>25-45 PM<br>Technologien: 12-20 | Compiler, Datenbank |
 | Super Heavy | >100 Personen<br> >45 PM<br>Technologien: >20 | Raumfahrt, Atomkraftwerk, elektronische Börse|
@@ -99,7 +98,7 @@ Wie vermeidet man Mängel in Software oder deckt sie auf?
 ### Rollen in der Softwareentwicklung
 
 #### Begriff
-* Eine Rolle beschreibt eine Menge von zusammengehörigen Aufgaben und Befugnissen (oft auch notwendige Qualiﬁkationen)
+* Eine Rolle beschreibt eine Menge von zusammengehörigen Aufgaben und Befugnissen (oft auch notwendige Qualifikationen)
 * Eine Rolle wird von einer oder mehreren Personen wahrgenommen
 * Eine Person kann mehrere Rollen einnehmen
 * Nicht in jeder Softwareentwicklung treten alle Rollen auf, abhängig von Art und Größe des Projekts
@@ -114,7 +113,7 @@ Wie vermeidet man Mängel in Software oder deckt sie auf?
 | Benutzer | Benutzen die Software</br>Manchmal mit Auftraggeber identisch |
 | Manager | Treffen während der Entwicklung die organisatorischen Entscheidungen |
 | Berater | Unterstützen den Kunden in der Definition der Anforderungen |
-| Entwickler | Definieren und entwickeln Software</br>in verschiedenen Rollen aufgeteilt(d.h. mit verschiedenartigen Aufgaben)|
+| Entwickler | Definieren und entwickeln Software</br>in verschiedenen Rollen aufgeteilt (d.h. mit verschiedenartigen Aufgaben)|
 
 #### Rollen bei der Auftragsarbeit
 Ein Manager gibt einen Auftrag an ein Auftraggeber, diese Person bespricht den Auftrag mit einem Fachexperten und einem Jurist.</br> Der Auftraggeber sucht sich ein Unternehmen oder eine einzelne Person, der sogenannte Auftragnehmer, mit der wird der Auftrag besprochen.</br> Der Auftragnehmer bespricht den Auftrag ebenfalls mit einem Juristen und einem Computerspezialist. Nach der Besprechung gibt er den Auftrag an einen Projektleiter, dieser kümmert sich dann um das gewünschte Projekt. </br>
@@ -127,11 +126,11 @@ Rücksprache gibt es weiterhin unter den ganzen Beteiligten.
 * Kaufmännischer Projektleiter
 * Analytiker
 * Entwickler
-* Konfigurationmanger
+* Konfigurationsmanager
 * Sicherheitsexperte
 * Softwarearchitekt
 * Tester 
-* Qualitätmanager
+* Qualitätsmanager
 
 ### Rollen aus Informatik-Perspektive
 
@@ -142,9 +141,9 @@ Rücksprache gibt es weiterhin unter den ganzen Beteiligten.
 | Software-Architekt | Architektur des Systems<br>Übergang vom Problem zur Realisierung („Wie“) | <ul><li>Zuordnung von Anforderungen auf Komponente/Subsysteme</li><li>Grobentwurf: Subsysteme, evtl. grobgranulare Komponenten und deren Beziehungen</li><li>Sicherstellung von Qualitätsattributen (Struktur des Systems beeinflusst Qualitätsattribute)</li><li>Dokumentation der Systemarchitektur</li></ul> |
 | Software-Designer | Beschreibung des Verhaltens, der Daten und der Funktionen des Systems<br>Entwurf einer „implementierungsnahen“ Speziﬁkation des Softwaresystems („technische Anforderungen“) | <ul><li>Modellierung/ Beschreibung der Anforderungen aus „Implementierungssicht“  (Kommunikation mit Architekt und Programmierer)</li><li>Feinentwurf: Detaillierter Entwurf des Systems (Komponenten, Interfaces, Klassen)</li></ul>|
 | Programmierer/Entwickler | programmiertechnische Umsetzung (Realisierung, Implementierung) des Entwurfs | <ul><li>Programmierung der einzelnen Komponenten</li><li>Dokumentation des Programmcodes</li><li>Definition der spezifischen Algorithmen</li><li>Beachtung von Standards</li><li>Entwickler-Test der Module (z.B. JUnit-Tests)</li><li>Code-Reviews</li></ul> |
-| Tester | führt das System aus, um Hinweise auf Fehler zu ﬁnden (Systemtests, Integrationstests)<br>Abwesenheit von Fehlern kann durch Testen **NICHT** garantiert werden | <ul><li>Detaillierung von Testplan, Testentwurf und Testfällen</li><li>Durchführung von Tests (Dokumentation der Testbedingungen und Testergebnissen)</li><li>Überprüfung der Zusammenarbeit der Komponenten</li><li>Überprüfung des Gesamtsystems</li></ul> |
+| Tester | führt das System aus, um Hinweise auf Fehler zu finden (Systemtests, Integrationstests)<br>Abwesenheit von Fehlern kann durch Testen **NICHT** garantiert werden | <ul><li>Detaillierung von Testplan, Testentwurf und Testfällen</li><li>Durchführung von Tests (Dokumentation der Testbedingungen und Testergebnissen)</li><li>Überprüfung der Zusammenarbeit der Komponenten</li><li>Überprüfung des Gesamtsystems</li></ul> |
 | Konfigurationsmanager | Festlegung der Regelungen für Konfigurations- und Produktverwaltung | <ul><li>Überwachung der Konfiguration des Produkts Konfigurationskontrolle und Statusverfolgung</li><li>Nachvollziehbarkeit und Konsistenz: Sicherstellung von Sichtbarkeit, Verfolgbarkeit und Kontrollierbarkeit eines Produkts und seiner Teile im Lebenszyklus</li></ul> |
-| Administrator | Betrieb des Softwaresystems | <ul><li>Installation der Software</li><li>Überwachung des laufenden Software durch Monitoring von Log-Files</li><li>Einspielen von Software-Updates</li></ul> |
+| Administrator | Betrieb des Softwaresystems | <ul><li>Installation der Software</li><li>Überwachung der laufenden Software durch Monitoring von Log-Files</li><li>Einspielen von Software-Updates</li></ul> |
 
 Weitere Rollen ([Quelle](http://dewik.de/content/SE_Zusammenfassung_Kap_4_7.pdf "Kapitel 4: Rollen in der Software Engineerings")):
 * Risikomanager
@@ -153,7 +152,7 @@ Weitere Rollen ([Quelle](http://dewik.de/content/SE_Zusammenfassung_Kap_4_7.pdf 
 * Systemtechniker
 * Technologieberater
 * Wartungsexperte
-* Datensammler- und bewerter
+* Datensammler und -bewerter
 * Software-Prozessverbesserer
 * Wiederverwender
 
@@ -171,7 +170,7 @@ Weitere Rollen ([Quelle](http://dewik.de/content/SE_Zusammenfassung_Kap_4_7.pdf 
 |:-------------|:-------|:-------|
 | Light | Kunde, Management,<br>Programmierer, Tester | Besteht meistens aus nur<br>einer Person die alle Rollen<br>in sich vereint.|
 | Medium | Kunde, Projektleiter, Analytiker,<br>Programmierer, Tester, Controller | Projekt umfangreicher<br>Zusammenarbeit mehrerer<br>Personen notwendig |
-| (Super) Heavy | Kunde, Management, wirschaftlicher<br>und technischer Projektleiter,<br>Gruppenleiterm Analytiker, Controller,<br>Programmierer, Tester,<br>Qualitätssicherer | Projekt für Einzelne nicht<br>mehr überschaubar,<br>Aufteilung in Gruppen mit<br>Struktur des Ganzen |
+| (Super) Heavy | Kunde, Management, wirtschaftlicher<br>und technischer Projektleiter,<br>Gruppenleiterm Analytiker, Controller,<br>Programmierer, Tester,<br>Qualitätssicherer | Projekt für Einzelne nicht<br>mehr überschaubar,<br>Aufteilung in Gruppen mit<br>Struktur des Ganzen |
 
 ### Software Qualität
 
@@ -192,10 +191,11 @@ Dies ist problematisch, da die Kosten zur Behebung der Fehler mit jedem weiteren
 
 Bei einem Projekt, bei dem mehr als eine Person die Software entwickelt, entstehen mehr als eine Version der Software. Software Engineering hilft dabei, dass Fehler nicht entstehen oder die zu beseitigen.
 
-###Was ist Software Engineering?
+### Was ist Software Engineering?
 
 Software Engineering ist ein Teilgebiet der praktischen Informatik, die das Software Management, die Entwicklung und Qualitätssicherung zusammenfasst.
-Weitere Themen die unter Software Engineering fallen sind: Software...
+Weitere Themen die unter Software Engineering fallen sind: 
+Software...
 * ... Requirements
 * ... Design
 * ... Construction
