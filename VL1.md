@@ -53,6 +53,14 @@ Lernziel für heute:
 * Echzeitsysteme (z.B. Flugüberwachung und Kraftwerkssteuerung)
 * Informationssysteme (datenbankgestützte Verwaltung von Information), oft webbasiert
 
+#### Eigenschaften von Software
+
+* Software kann man nicht anfassen: Software ist immateriell
+* Entwicklungsfortschritt ist nicht objektiv messbar
+* Anders als materielle Produkte verschleißt Software nicht
+* Software verschleißt zwar nicht, altert aber dennoch
+	* Die Umgebung, in der Software eingesetzt wird, ändert sich ständig
+	* Software muss daher diesen Änderungen immer wieder angepasst werden
 
 ### Software Projekte
 
