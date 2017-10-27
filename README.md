@@ -34,3 +34,14 @@ Gruppe 3
 * <span style="color:red">__08.12.2017:__</span> TBD
 * <span style="color:red">__13.12.2017:__</span> TBD
 * <span style="color:red">__20.12.2017:__</span> TBD
+
+#### Hinweise zur Gestalltung
+
+* [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* Markdown erlaubt das Einbetten von HTML, z.B:
+	* `<span style="color:red">Text</span>` zum farbigen Hervorheben
+	* `<center> ... </center>` zum Zentrieren von Inhalten
+* Große Themen-Blöcke am bessten mit Headern in Abschnitte unterteilen (aber auch nicht zu kleinteilig)
+* Benutzt Bilder; eine "Wall-of-Text" sieht nicht schön aus
+	* Falls Bilder im Projektverzeichnis abgelegt werden, sollten das unter `images/<Titel der Vorlesung (lower case)>` passieren, z.B. `images/einleitung`
+	* Falls der Titel zu lang oder unhandlich ist kann auch der Name der Markdown Datei verwendet werden
