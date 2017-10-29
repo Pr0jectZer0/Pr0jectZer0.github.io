@@ -42,7 +42,7 @@ date: "27/10/2017"
 * Regelmäßige Überprüfung und Verbesserung der eigenen Effektivität
 
 #### Vergleich mit anderen Vorgehensmodellen
-	| Bisheriger Ansatz | Agiler Ansatz
+Test | Bisheriger Ansatz | Agiler Ansatz
 :---: | --- | ---
 **Mitwirkung des Kunden** | unwahrscheinlich | kritischer Erfolgsfaktor
 **Etwas Nützliches wird geliefert** | erst nach einiger (längerer) Zeit | mindestens alle sechs Wochen
