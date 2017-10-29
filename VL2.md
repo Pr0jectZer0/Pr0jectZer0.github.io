@@ -42,11 +42,11 @@ date: "27/10/2017"
 * Regelmäßige Überprüfung und Verbesserung der eigenen Effektivität
 
 #### Vergleich mit anderen Vorgehensmodellen
-Test | Bisheriger Ansatz | Agiler Ansatz
-:---: | --- | ---
+|| Bisheriger Ansatz | Agiler Ansatz
+--- | --- | ---
 **Mitwirkung des Kunden** | unwahrscheinlich | kritischer Erfolgsfaktor
 **Etwas Nützliches wird geliefert** | erst nach einiger (längerer) Zeit | mindestens alle sechs Wochen
-** Das Richtige entwickeln durch** | langes Spezifizieren, Vorausdenken | Kern entwickeln, zeigen, verbessern
+**Das Richtige entwickeln durch** | langes Spezifizieren, Vorausdenken | Kern entwickeln, zeigen, verbessern
 **Nötige Disziplin** | formal,  wenig | informell, viel
 **Änderungen** | erzeugen Widerstand | werden erwartet und toleriert
 **Kommunikation** | über Dokumente | zwischen Menschen
