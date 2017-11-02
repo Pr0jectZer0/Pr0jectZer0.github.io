@@ -295,3 +295,7 @@ Im weiteren Verlauf der Lehrveranstaltung werden drei populäre Vertreter der ag
 - Allgemeine Entwicklungsphasen sind **Anforderungsspezifikation**, **Systemanalyse**, **Entwurf**, **Implementierung**, **Testen** und **Wartung**.
 - Einige Vorgehensmodelle beschreiben den Softwareentwicklungsprozess als <span style="color:red">Kreislauf von Aktivitäten</span>.
 - <span style="color:red">Agile Vorgehensmodelle</span> wie Scrum oder XP sollen ermöglichen, auf <span style="color:red">geänderte oder neue Anforderungen</span> geeignet reagieren zu können.
+
+<center>
+![Ende](./images/vorgehensmodelle/Ende.png)
+</center>
