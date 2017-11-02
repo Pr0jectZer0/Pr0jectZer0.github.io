@@ -21,7 +21,7 @@ Lernziel für heute:
 
 <center>__Software ist ein umfassenderer Begriff als "Programm"__</center>
 <center>
-![Eisberg](./images/image4.jpeg)
+![Eisberg](./images/einleitung/image4.jpeg)
 </center>
 
 * Software besteht ebenfalls aus der zugehörigen Dokumentation
@@ -36,7 +36,7 @@ Lernziel für heute:
 </dl>
 
 <center>
-![Software](./images/image5.jpeg)
+![Software](./images/einleitung/image5.jpeg)
 </center>
 
 #### Arten von Software
@@ -53,6 +53,14 @@ Lernziel für heute:
 * Echzeitsysteme (z.B. Flugüberwachung und Kraftwerkssteuerung)
 * Informationssysteme (datenbankgestützte Verwaltung von Information), oft webbasiert
 
+#### Eigenschaften von Software
+
+* Software kann man nicht anfassen: Software ist immateriell
+* Entwicklungsfortschritt ist nicht objektiv messbar
+* Anders als materielle Produkte verschleißt Software nicht
+* Software verschleißt zwar nicht, altert aber dennoch
+	* Die Umgebung, in der Software eingesetzt wird, ändert sich ständig
+	* Software muss daher diesen Änderungen immer wieder angepasst werden
 
 ### Software Projekte
 
@@ -74,7 +82,7 @@ Ein Projekt ist ein <span style="color:red">Vorhaben</span>, das im Wesentlichen
 Die klassische Softwareentwicklung wird durch das <span style="color:red">Wassefall-Modell</span> mit 7 Phasen beschrieben:
 
 <center>
-![Wasserfall](./images/image7.png)
+![Wasserfall](./images/einleitung/image7.png)
 </center>
 
 #### Typische Phasen in der Softwareentwicklung
@@ -119,13 +127,13 @@ Die klassische Softwareentwicklung wird durch das <span style="color:red">Wassef
 #### Rollen bei der Auftragsarbeit
 
 <center>
-![Auftragsarbeit](./images/image8.jpeg)
+![Auftragsarbeit](./images/einleitung/image8.jpeg)
 </center>
 
 #### Typische Rollen 
 
 <center>
-![Typische Rollen](./images/image9.png)
+![Typische Rollen](./images/einleitung/image9.png)
 </center>
 
 ### Rollen aus Informatik-Perspektive
@@ -173,7 +181,7 @@ Weitere Rollen ([Quelle](http://dewik.de/content/SE_Zusammenfassung_Kap_4_7.pdf 
 ** Kriterien **
 
 <center>
-![Qualitätskriterien](./images/image11.png)
+![Qualitätskriterien](./images/einleitung/image11.png)
 </center>
 
 ** Perspektiven **
@@ -189,7 +197,7 @@ Aus jeder Perspektive sind unterschiedliche Kriterien wichtig.
 * Der Endbenutzer achtet auf eine einfache und intuitive Bedienung, welche er nach kurzer Zeit erlernen kann. Falls dies nicht der Fall sein sollte achtet der Benutzer auf eine gute Dokumentation.
 
 <center>
-![Perspektive](./images/image12.png)
+![Perspektive](./images/einleitung/image12.png)
 </center>
 
 ** Interessenkonflikte **
@@ -211,7 +219,7 @@ Nicht alle Kriterien lassen sich zusammen vereinen.
 ### Probleme in der Software Entwicklung
 
 <center>
-![Softwareentwicklung](./images/image14.png)
+![Softwareentwicklung](./images/einleitung/image14.png)
 </center>
 
 In der Entwicklung von Software treten viele Probleme auf. Diese führen entweder zum Abbruch des Projektes oder zur "Rahmensprengung" in den Bereichen Zeit und Geld.
@@ -264,7 +272,7 @@ Die Beteiligten der Entwicklung sollten auf folgendes achten:
 * Zielorientiertheit des Teams fördern
 
 <center>
-![Schlüsselfaktoren](./images/image15.png)
+![Schlüsselfaktoren](./images/einleitung/image15.png)
 </center>
 
 ### Softwarekosten
@@ -283,17 +291,17 @@ Dies ist problematisch, da die Kosten zur Behebung der Fehler mit jedem weiteren
 Bei einem Projekt, bei dem mehr als eine Person die Software entwickelt, entstehen mehr als eine Version der Software. Software Engineering hilft dabei, dass Fehler nicht entstehen oder die zu beseitigen.
 
 <center>
-![Fehlerhäufigkeit](./images/image16.png)
+![Fehlerhäufigkeit](./images/einleitung/image16.png)
 </center>
 
 <center>
-![Fehlerkosten](./images/image17.png)
+![Fehlerkosten](./images/einleitung/image17.png)
 </center>
 
 ### Was ist Software Engineering?
 
 <center>
-![Software Engineering](./images/image18.png)
+![Software Engineering](./images/einleitung/image18.png)
 </center>
 
 Software Engineering ist ein Teilgebiet der praktischen Informatik, die das Software Management, die Entwicklung und Qualitätssicherung zusammenfasst.
@@ -310,7 +318,7 @@ Software...
 * ... Engineering Process
 
 <center>
-![Software Engineering](./images/image19.png)
+![Software Engineering](./images/einleitung/image19.png)
 </center>
 
 Durch Software Engineering und die Verwendung von Methoden, Werkzeugen und Vorgehensmodellen werden die Kosten, die bei der Entwicklung, Wartung und Erweiterung anfallen, reduziert mit der Erhaltung von hoher Qualität.
@@ -324,7 +332,7 @@ Durch Software Engineering und die Verwendung von Methoden, Werkzeugen und Vorge
 Insgesamt steht die Qualität im Mittelpunkt, es wird mit (agilen) Vorgehensmodellen gearbeitet, die Entwicklung wird methodisch durchgeführt und es werden Softwarewerkzeuge zur Beherrschung der Komplexität benutzt.
 
 <center>
-![Software Engineering](./images/image20.png)
+![Software Engineering](./images/einleitung/image20.png)
 </center>
 
 ### Zusammenfassung
@@ -337,5 +345,5 @@ Insgesamt steht die Qualität im Mittelpunkt, es wird mit (agilen) Vorgehensmode
 * Der <span style="color:red">Softwareentwicklungsprozess besteht aus Phasen</span>, die bei der Entwicklung des Softwareprodukts involviert sind. Die grundlegenden Phasen sind <span style="color:red">*Analyse, Entwurf, Implementierung, Integration, Test, Wartung und Weiterentwicklung*</span>.
 
 <center>
-![Ende](./images/image21.png)
+![Ende](./images/einleitung/image21.png)
 </center>
