@@ -17,6 +17,81 @@ date: "27/10/2017"
 
 ### Vorgehensmodelle
 
+### Verschiede Vorgehensmodelle  
+
+![Image of VGH](images/vorgehensmodelle1.png)
+
+* Anhand dieser Grafik wird deutlich, wofür man Vorgehensmodelle braucht und warum.
+* Vom einfachen bis zum „besten“ dem rechtsunteren Vorgehensmodell erkennt man deutliche Unterschiede. Das 4. Modell ist strukturierter und man erkennt eine überschaubarere Planung wie als einfaches „programmieren und verkaufen“.  
+
+* Ein Vorgehensmodell ist eine vereinfachte Beschreibung eines Softwareentwicklungsprozesses. Es beschreib Folgen bzw. Bündel von Aktivitäten, die zur Durchführung eines IT-Projekts erforderlich sind. Üblich ist eine Gliederung in Phasen, Arbeitsabschnitte und Aktivitätsblöcke, durch die der Entwicklungsprozess in planbare und kontrollierbare Einheiten zerlegt wird. 
+* Es schafft also ein gemeinsames Verständnis von dem, was und wann etwas erledigt wird und macht den Softwareentwicklungsprozess transparenter, planbar, nachvollziehbar und  kontrollierbar.
+* Dadurch sollen die Ziele wie z.B. höhere Qualität der Software, effizientere Produktion, bessere Wartbarkeit, schnellere Fehlerbehebung und erhöhte Änderungsfreundlichkeit erreicht werden.
+
+
+
+### Das Phasenmodell ein primitives Vorgehensmodell
+
+* Anhand der Beispiele 1, 2 & 3 erkennt man sehr genau eine Phasenweise Einteilung der verschiedenen Aufgabenbereiche
+  
+![Phase](images/phase1.png)
+
+### Vorgehensmodellle umfassen:
+* Phasen
+* Tätigkeiten/Aktivitäten die während der Phasen ausgeführt werden
+* Software/Dokumente/“Artefakte“, die während der einzelnen Aktivitäten entstehen
+* Rollen von Personen
+ 
+Eine Phase ist eine zeitlich begrenzte Aktivität/Tätigkeit mit einer speziellen Aufgabe, die von Mitarbeitern mit geeigneten Rollen/Qualifikationen bearbeitet werden, um basierend auf vorgegebenen Artefakten neue Artefakte* zu produzieren.
+*Als Artefakte bezeichnet man alle Arbeitsergebnisse innerhalb eines Projekts. Dies bezieht sich nicht alleine auf die Erstellung der Software, es beinhaltet auch Vorarbeiten und Zwischenergebnisse, die für die Durchführung des Projekts notwendig sind. Artefakte sind notwendig um Projektinformationen zu erfassen, wodurch man mit Hilfe der Planung den Status des Projekts ermitteln und vermitteln kann.
+### Softwareentwicklungsprozess
+
+
+![Aktiv1](images/Aktiv1.png)
+ 
+
+* Phase beinhaltet 1 zu n Aktivitäten. Diese Aktivitäten werden unterstützt durch Technik begrenzt auf die Anzahl der Rollen m. n Aktivitäten werden durch eine m Anzahl an Rollen/Personen ausgeführt.
+* Eine Aktivität beinhaltet 1 zu n Aktivitäten.
+* Diese Anzahl an Aktivitäten führen zu einem Ergebnis das bestehend aus 1 zu n Ergebnissen ist.
+* Diese Ergebnisse erfüllt die Anzahl an Richtlinien und ergeben einen n Anzahl an Notationen.
+
+* Es gibt kein perfektes Vorgehensmodell. Jedes Modell muss an die Menschen und an das Projekt angepasst werden. Dazu hat man eine Auswahl an vielen verschiedenen Modellen.   
+* Es gibt sechs grundlegende Phasen, die alle Vorgehensmodelle gemeinsam haben:
+
+1.	Anforderungsanalyse 
+2.	Softwaresystemanalyse 
+3.	Softwareentwurf 
+4.	Softwareimplementierung 
+5.	Softwaretest
+6.	Wartung
+
+### Requirements Engineering
+
+![Phase2](images/Phase2.png)
+
+ 
+Ist das Festlegen der Anforderungen an ein System und die Ermittlung, Beschreibung, Analyse und Gewichtung der Anforderungen in einer möglichst exakten und eindeutigen Form, um eine qualitative Verbesserung der Anforderungsdefinition und eine Reduktion der Fehler zu erreichen. Die Ergebnisse des Requirements Engineering (die Anforderungen) dienen als Richtlinie, da sie festlegen, welche Funktionen das System in welcher Qualität besitzen muss.
+Typische Anforderungen:
+
+* gewünschte Funktionen
+* Beschreibung korrekter und falscher Eingabedaten und gewünschter Ausgabedaten
+* mögliche Systemerweiterungen
+* Dokumentationsanforderungen
+* Qualitätsmerkmale
+
+
+
+
+
+Im Requirements Engineering werden vor allem die folgenden drei Gruppen betrachtet:
+
+* Funktionale Anforderungen spezifizieren die Funktionalität, die Entwickler in ein Produkt bauen müssen, um Nutzer zu befähigen, ihre Aufgaben zu bewältigen
+* Nicht-funktionale Anforderungen sind Forderungen nach Einhaltung von Qualitätsattributen.
+* Rahmenbedingungen (engl. constraint) sind organisatorische oder technologische Einschränkungen des Freiheitgrades eine Lösung bereitzustellen.
+ 
+
+
+
 #### Systemanalyse
 * Ziel: Verstehen des Problems und des realisierenden Systems
 * Untursuchung der technischen und ökonomischen Durchführbarkeit
@@ -161,8 +236,8 @@ Ergebnis: <span style="color:red">Protokolle für das Monitoring von Systemzust�
 * Regelmäßige Überprüfung und Verbesserung der eigenen Effektivität
 
 #### Vergleich mit anderen Vorgehensmodellen
-|| Bisheriger Ansatz | Agiler Ansatz |
-| --- | --- | --- |
+| Bisheriger Ansatz | Agiler Ansatz |
+| :--- | :--- | :--- |
 | **Mitwirkung des Kunden** | unwahrscheinlich | kritischer Erfolgsfaktor |
 | **Etwas Nützliches wird geliefert** | erst nach einiger (längerer) Zeit | mindestens alle sechs Wochen |
 | **Das Richtige entwickeln durch** | langes Spezifizieren, Vorausdenken | Kern entwickeln, zeigen, verbessern |
