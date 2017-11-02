@@ -189,8 +189,6 @@ Ergebnis: <span style="color:red">Protokolle f√ºr das Monitoring von Systemzust√
 </center>
 
 ### Von klassischen zu agilen Vorgehensmodellen
-
-### Agile Vorgehensmodelle
 #### Beobachtungen in einem Softwareprojekt
 * Unentschlossenheit der Kunden
 * Stakeholder und Anforderungen sind nicht alle bekannt
@@ -206,6 +204,8 @@ Ergebnis: <span style="color:red">Protokolle f√ºr das Monitoring von Systemzust√
 
 
 * Technische Risiken, z.B. Infrastruktur h√§lt nicht, was sie verspricht
+
+### Agile Vorgehensmodelle
 
 #### Das agile Manifest
 
