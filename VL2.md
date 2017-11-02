@@ -288,3 +288,10 @@ Im weiteren Verlauf der Lehrveranstaltung werden drei populäre Vertreter der ag
 
 
 ### Zusammenfassung
+
+- Softwareentwicklungsprozesse sind <span style="color:red">Aktivitäten</span>, die bei der Entwicklung von Softwaresystemen ausgeführt werden. Diese können in einem <span style="color:red">Vorgehensmodell</span> dargestellt werden.
+- Es gibt <span style="color:red">charakteristische Aufgaben und Tätigkeiten</span>, die während der Softwareentwicklung durchgeführt werden müssen. Sie werden in <span style="color:red">Entwicklungsphasen</span> zusammengefasst.
+- Jede Entwicklungsphase besteht aus einer Reihe von Tätigkeiten und Ergebnissen, die am Ende der Phase vorliegen müssen.
+- Allgemeine Entwicklungsphasen sind **Anforderungsspezifikation**, **Systemanalyse**, **Entwurf**, **Implementierung**, **Testen** und **Wartung**.
+- Einige Vorgehensmodelle beschreiben den Softwareentwicklungsprozess als <span style="color:red">Kreislauf von Aktivitäten</span>.
+- <span style="color:red">Agile Vorgehensmodelle</span> wie Scrum oder XP sollen ermöglichen, auf <span style="color:red">geänderte oder neue Anforderungen</span> geeignet reagieren zu können.
