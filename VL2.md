@@ -1,11 +1,19 @@
----
+﻿---
 title: "Vorlesung 2: Vorgehensmodelle"
 date: "27/10/2017"
 ---
 
 ## Vorlesung 2: Vorgehensmodelle
 
-### Wiederholung/Lernziele
+### Wiederholung
+* Phasen der Softwareentwicklung
+* Rollen in einem Softwareprojekt
+* Softwarequalität
+
+### Lernziele
+* Verstehen, was ein Vorgehensmodell für Softwareentwicklung ist
+* Wissen, welche relevanten Vorgehensmodelle existieren (insbesondere agile Vorgehensmodelle)
+* Vor- und Nachteile von verschiedenen Vorgehensmodellen verstehen
 
 ### Vorgehensmodelle
 
@@ -108,6 +116,21 @@ Ergebnis: <span style="color:red">Protokolle für das Monitoring von Systemzust�
 ### Von klassischen zu agilen Vorgehensmodellen
 
 ### Agile Vorgehensmodelle
+#### Beobachtungen in einem Softwareprojekt
+* Unentschlossenheit der Kunden
+* Stakeholder und Anforderungen sind nicht alle bekannt
+* widersprüche in den Angaben des Kunden, teilweise wegen "Unternehmenspolitik"
+
+
+* Missverständnisse zwischen Auftragnehmer und Kunde
+* über- und/oder unterschätzte Aufwände
+
+
+* Änderungen in den Prioritäten, Geschäftsprozessen etc. während des Projekts
+* oft in komplexe Projekt- und Technologielandschaften eingebunden
+
+
+* Technische Risiken, z.B. Infrastruktur hält nicht, was sie verspricht
 
 #### Das agile Manifest
 
