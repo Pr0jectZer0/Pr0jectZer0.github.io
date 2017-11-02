@@ -236,7 +236,7 @@ Ergebnis: <span style="color:red">Protokolle für das Monitoring von Systemzust�
 * Regelmäßige Überprüfung und Verbesserung der eigenen Effektivität
 
 #### Vergleich mit anderen Vorgehensmodellen
-| Bisheriger Ansatz | Agiler Ansatz |
+| | Bisheriger Ansatz | Agiler Ansatz |
 | :--- | :--- | :--- |
 | **Mitwirkung des Kunden** | unwahrscheinlich | kritischer Erfolgsfaktor |
 | **Etwas Nützliches wird geliefert** | erst nach einiger (längerer) Zeit | mindestens alle sechs Wochen |
