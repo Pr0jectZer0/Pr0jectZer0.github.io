@@ -151,6 +151,7 @@ Engpässe behindern den Arbeitsfluss am meisten also gilt es diese zu vermeiden.
 
 Beispiele für Arbeitstypen (z.B. Visualisierung durch Zeilen) - Neue Features, Bugfix, Wartungsarbeit
 Beispiele für Serviceklasse (z.B. Visualisierung durch Farbe der Zettel am Board) - Standard, fester Liefertermin, beschleunigt (= hohe Priorität)
+
 ![Arbeitsfluss](/images/arbeitsfluss.jpg "Arbeitsfluss")
 
 ### #4: Mache die Prozessregeln explizit
