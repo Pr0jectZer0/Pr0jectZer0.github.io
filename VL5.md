@@ -42,7 +42,7 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 
 * __Paket- und Klassendiagramm__
 	* guter Überblick über die Ergebnisse des statischen Software-Entwurfs
-<img src="images/Packetdiagramm.png" alt="Paketdiagramm" style="width: 200px;"/>
+<img src="images/Packetdiagramm.PNG" alt="Paketdiagramm" style="width: 200px;"/>
 <img src="images/Klassendiagramm.png" alt="Klassendiagramm" style="width: 200px;"/>
 
 * __Sequenz- und Kommunikationsdiagramm__
