@@ -9,7 +9,9 @@ date: "14/11/2017"
 
 ### Kommunikation über UML-Modelle
 <center>
-![Kummunikationsdiagramm](./images/umldiagramme/kommunikationsdiagramm.png)
+
+![Kommunikation](./images/umldiagramme/kommunikationsdiagramm.png)
+
 </center>
 
 #### UML (Unified Modeling Language)
