@@ -5,9 +5,7 @@ title: "Vorlesung 4"
 ### Vorlesung 4: OOA und OOD mit UML-Diagrammen
 
 #### Grundlagen der objektorientierten Modellierung
-<center>
-![Modellbildung](./images/modellbildung.png)
-</center>
+![Modellbildung](/images/modellbildung.png)
 
 ### OOA / OOD mit UML
 
@@ -48,6 +46,4 @@ title: "Vorlesung 4"
 * Einbeziehung bestehender Entwürfe und Klassenbibliotheken (z.B.UI-Library) in das Design
 
 #### Kommunikation über UML-Modelle
-<center>
-![Kommunikaion über UML](./images/kommunikationuml.png)
-</center>
+![Kommunikation mit UML](/images/kommunikationuml.png)
