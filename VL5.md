@@ -47,7 +47,31 @@ date: "14/11/2017"
 * Einbeziehung bestehender Entwürfe und Klassenbibliotheken (z.B.UI-Library) in das Design
 ![OOD](/images/kommunikationuml.png)
 
+### UML
+
+### Kommunikation über UML-Modelle
+<center>
+
+![Kommunikation](./images/umldiagramme/kommunikationsdiagramm.png)
+
+</center>
+
+#### UML (Unified Modeling Language)
+* ist eine grafische Modellierungssprache zur Spezifikation, Konstruktion und Dokumentation von u.a. Softwaresystemen, speziell in den frühen Phasen der Softwareentwicklung.
+* ermöglicht Kommunikation unter Entwicklern, aber auch zwischen Entwicklern und Benutzern.
+* bildet analog zu einem Bauplan den Problembereich möglichst genau auf einem Modell ab.
+* bietet viele Freiheiten bei der Modellierung.
+
+### UML - Diagrammtypen
+<center>
+
+![Diagrammtypen-Baum](./images/umldiagramme/diagrammtypen.png)
+
+</center>
+Vorlesungsrelevant: Klassendiagramm, Paketdiagramm, Objektdiagramm, Komponentendiagramm, Verteilungsdiagramm, Aktivitätsdiagramm, Anwendungsfalldiagramm, Sequenzdiagramm, Zustandsdiagramm
+
 ### Modelle und UML-Diagramme
+
 Mit UML lassen sich Software-Systeme modellieren und darstellen. Diese Modelle und Darstellungen lassen sich wie folgt unterteilen:
 * __Funktionale Modellierung__
 	* Menge von Funktionen, Anwendungsfällen und Diensten
@@ -99,3 +123,49 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 	* beschreibt Zustand eines Objekts im Verlauf
 	* gut zum Ermitteln neuer Attribute und Methoden
 <img src="images/Zustandsdiagramm.png" alt="Sequenzdiagramm" width="200"/>
+
+
+### Zuordnung der UML-Diagrammtypen zu Phasen der Softwareentwicklung
+
+#### Einsatzgebiete der UML - Diagrammtypen
+* Anforderungen
+    * Use-Case-Diagramm
+* Geschäftsprozesse
+    * Aktivitätsdiagramm
+* Statische Softwarestruktur
+    * Klassendiagramm
+* Dynamisches Verhalten der Software
+    * Squenzdiagramm, Zustandsdiagramm
+* Struktur von Softwarekomponenten / Bibliotheken
+    * Komponentendiagramm
+* Zuordnung von Software auf Rechnersystemen
+    * Verteilungsdiagramm
+
+![Entwicklung](./images/umldiagramme/diagrammeentwicklung.PNG)
+
+In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich dargestellt.
+
+![Zusammenspiel](./images/umldiagramme/zusammenspiel.png)
+
+* Der Ablauf eines Use-Cases wird durch ein Aktivitätsdiagramm modelliert.
+* Szenarien eines Use-Cases werden durch Interaktionsdiagramme modelliert.
+* Klassendiagramme strukturieren den Use-Case.
+    * Klassen werden in Interaktionsdiagrammen verwendet.
+* Das Verhalten einer Klasse wird in einem Zustandsdiagramm modelliert.
+* Ein Paketdiagramm strukturiert Klassen zu größeren Einheiten.
+
+### Pragmatisches "Schritt für Schritt" Vorgehensmodell
+
+<center>
+
+![Schritt1](./images/umldiagramme/bild1.PNG)
+
+![Schritt2](./images/umldiagramme/bild2.PNG)
+
+![Schritt3](./images/umldiagramme/bild3.PNG)
+
+![Schritt4](./images/umldiagramme/bild4.PNG)
+
+![Schritt5](./images/umldiagramme/bild5.PNG)
+
+</center>
