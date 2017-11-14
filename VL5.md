@@ -29,12 +29,12 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 	* beschreibt Anforderung
 	* Außensicht auf das Produkt
 	* Testgrundlagen
-<img src="images/Usecase.png" alt="Usecase" style="width: 200px;"/>
+<img src="images/Usecase.png" alt="Usecase" width="200"/>
 
 * __Dynamisches Aktivitätsdiagramm__
 	* beschreibt einen Workflow/Szenario
 	* Klassen,Objekte und Beziehungen lassen sich hieraus extrahieren
-<img src="images/Aktivitätsdiagramm.png" alt="Aktivitätsdiagramm" style="width: 200px;"/>
+<img src="images/Aktivitätsdiagramm.png" alt="Aktivitätsdiagramm" width="200"/>
 
 * __Statisches Paketdiagramm__
 	* besteht aus zusammenhängenden Klassen
@@ -42,21 +42,21 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 
 * __Paket- und Klassendiagramm__
 	* guter Überblick über die Ergebnisse des statischen Software-Entwurfs
-<img src="images/Packetdiagramm.PNG" alt="Paketdiagramm" style="width: 200px;"/>
-<img src="images/Klassendiagramm.png" alt="Klassendiagramm" style="width: 200px;"/>
+<img src="images/Packetdiagramm.PNG" alt="Paketdiagramm" width="200"/>
+<img src="images/Klassendiagramm.png" alt="Klassendiagramm" width="200"/>
 
 * __Sequenz- und Kommunikationsdiagramm__
 	* sind dynamisch 
 	* beschreibt den Nachrichtenaustausch in einem System
 	* Verhalten steht im Vordergrund
-<img src="images/Squenzdiagramm.png" alt="Sequenzdiagramm" style="width: 200px;"/>
-<img src="images/Kommunikationsdiagramm.png" alt="Kommunikationsdiagramm" style="width: 200px;"/>
+<img src="images/Squenzdiagramm.png" alt="Sequenzdiagramm" width="200">
+<img src="images/Kommunikationsdiagramm.png" alt="Kommunikationsdiagramm" width="200"/>
 
 * __Zustandsübergangsdiagramm__
 	* sehr kleinteilig
 	* beschreibt Zustand eines Objekts im Verlauf
 	* gut zum Ermitteln neuer Attribute und Methoden
-<img src="images/Zustandsdiagramm.png" alt="Sequenzdiagramm" style="width: 200px;"/>
+<img src="images/Zustandsdiagramm.png" alt="Sequenzdiagramm" width="200"/>
 
 
 
