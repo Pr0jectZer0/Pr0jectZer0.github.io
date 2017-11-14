@@ -22,7 +22,9 @@ date: "14/11/2017"
 
 ### UML - Diagrammtypen
 <center>
+
 ![Diagrammtypen-Baum](./images/umldiagramme/diagrammtypen.png)
+
 </center>
 Vorlesungsrelevant: Klassendiagramm, Paketdiagramm, Objektdiagramm, Komponentendiagramm, Verteilungsdiagramm, Aktivitätsdiagramm, Anwendungsfalldiagramm, Sequenzdiagramm, Zustandsdiagramm
 
@@ -109,6 +111,8 @@ In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich darges
 
 ### Pragmatisches "Schritt für Schritt" Vorgehensmodell
 
+<center>
+
 ![Schritt1](images/umldiagramme/bild1.png)
 
 ![Schritt2](images/umldiagramme/bild2.png)
@@ -118,3 +122,5 @@ In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich darges
 ![Schritt4](images/umldiagramme/bild4.png)
 
 ![Schritt5](images/umldiagramme/bild5.png)
+
+</center>
