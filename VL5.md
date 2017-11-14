@@ -19,7 +19,7 @@ Ein Softwaresystem soll immer in solche Subsysteme zerlegt werden und anschließ
 Außerdem gibt es noch die Unterscheidung von __statischen__ und __dynamischen__ Modellen, die in den folgenden Grafiken veranschaulicht wird.
 ![Pyramide](images/Pyramide.png)
 
-![Pyramide](images/Pyramide2.png)
+![Pyramide](images/Pyramide2.PNG)
 Die Diagramme verfeinern sich von oben nach unten und lassen sich wie oben erwähnt in statisch und dynamisch einteilen.
 * Das __statische Modell__ stellt eine allgemeine Gesamtansicht auf ein Problemfeld dar
 * Das __dynamische Modell__ stellt Systemverhalten, zeitliche Abläufe, Zustände und Übergänge dar
