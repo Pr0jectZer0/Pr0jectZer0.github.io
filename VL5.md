@@ -5,6 +5,25 @@ date: "14/11/2017"
 
 ## Vorlesung 5: OOA/OOD mit UML-Diagrammen
 
+### UML
+
+### Kommunikation über UML-Modelle
+<center>
+![Kummunikationsdiagramm](./images/umldiagramme/kommunikationsdiagramm.png)
+</center>
+
+#### UML (Unified Modeling Language)
+* ist eine grafische Modellierungssprache zur Spezifikation, Konstruktion und Dokumentation von u.a. Softwaresystemen, speziell in den frühen Phasen der Softwareentwicklung.
+* ermöglicht Kommunikation unter Entwicklern, aber auch zwischen Entwicklern und Benutzern.
+* bildet analog zu einem Bauplan den Problembereich möglichst genau auf einem Modell ab.
+* bietet viele Freiheiten bei der Modellierung.
+
+### UML - Diagrammtypen
+<center>
+![Diagrammtypen-Baum](./images/umldiagramme/diagrammtypen.png)
+</center>
+Vorlesungsrelevant: Klassendiagramm, Paketdiagramm, Objektdiagramm, Komponentendiagramm, Verteilungsdiagramm, Aktivitätsdiagramm, Anwendungsfalldiagramm, Sequenzdiagramm, Zustandsdiagramm
+
 ### Modelle und UML-Diagramme
 Mit UML lassen sich Software-Systeme modellieren und darstellen. Diese Modelle und Darstellungen lassen sich wie folgt unterteilen:
 * __Funktionale Modellierung__
@@ -12,7 +31,7 @@ Mit UML lassen sich Software-Systeme modellieren und darstellen. Diese Modelle u
 * __Prozessorientierte Darstellung__
 	* Menge von Prozessen, Abläufen, Vorgängen und Workflows
 * __Daten und Objekt Darstellung__
-	* Beziehungen untereinander und Strukturen 
+	* Beziehungen untereinander und Strukturen
 
 Ein Softwaresystem soll immer in solche Subsysteme zerlegt werden und anschließend aus unabhängigen Komponenten bestehen.
 
@@ -46,7 +65,7 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 <img src="images/Klassendiagramm.png" alt="Klassendiagramm" width="200"/>
 
 * __Sequenz- und Kommunikationsdiagramm__
-	* sind dynamisch 
+	* sind dynamisch
 	* beschreibt den Nachrichtenaustausch in einem System
 	* Verhalten steht im Vordergrund
 <img src="images/Squenzdiagramm.png" alt="Sequenzdiagramm" width="200">
@@ -59,5 +78,41 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 <img src="images/Zustandsdiagramm.png" alt="Sequenzdiagramm" width="200"/>
 
 
+### Zuordnung der UML-Diagrammtypen zu Phasen der Softwareentwicklung
 
+#### Einsatzgebiete der UML - Diagrammtypen
+* Anforderungen
+    * Use-Case-Diagramm
+* Geschäftsprozesse
+    * Aktivitätsdiagramm
+* Statische Softwarestruktur
+    * Klassendiagramm
+* Dynamisches Verhalten der Software
+    * Squenzdiagramm, Zustandsdiagramm
+* Struktur von Softwarekomponenten / Bibliotheken
+    * Komponentendiagramm
+* Zuordnung von Software auf Rechnersystemen
+    * Verteilungsdiagramm
 
+![Entwickllung](images/umldiagramme/diagrammeentwicklung.png)
+In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich dargestellt.
+
+![Entwickllung](images/umldiagramme/zusammenspiel.png)
+* Der Ablauf eines Use-Cases wird durch ein Aktivitätsdiagramm modelliert.
+* Szenarien eines Use-Cases werden durch Interaktionsdiagramme modelliert.
+* Klassendiagramme strukturieren den Use-Case.
+    * Klassen werden in Interaktionsdiagrammen verwendet.
+* Das Verhalten einer Klasse wird in einem Zustandsdiagramm modelliert.
+* Ein Paketdiagramm strukturiert Klassen zu größeren Einheiten.
+
+### Pragmatisches "Schritt für Schritt" Vorgehensmodell
+
+![Schritt1](images/umldiagramme/bild1.png)
+
+![Schritt2](images/umldiagramme/bild2.png)
+
+![Schritt3](images/umldiagramme/bild3.png)
+
+![Schritt4](images/umldiagramme/bild4.png)
+
+![Schritt5](images/umldiagramme/bild5.png)
