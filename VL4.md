@@ -6,7 +6,7 @@ title: "Vorlesung 4"
 
 #### Grundlagen der objektorientierten Modellierung
 <center>
-![Modellbildung](/images/modellbildung.png)
+![Modellbildung](./images/modellbildung.png)
 </center>
 
 ### OOA / OOD mit UML
@@ -49,5 +49,5 @@ title: "Vorlesung 4"
 
 #### Kommunikation über UML-Modelle
 <center>
-![Kommunikaion über UML](/images/kommunikationuml.png)
+![Kommunikaion über UML](./images/kommunikationuml.png)
 </center>
