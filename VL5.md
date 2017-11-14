@@ -98,10 +98,12 @@ Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 * Zuordnung von Software auf Rechnersystemen
     * Verteilungsdiagramm
 
-![Entwickllung](images/umldiagramme/diagrammeentwicklung.png)
+![Entwicklung](images/umldiagramme/diagrammeentwicklung.PNG)
+
 In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich dargestellt.
 
 ![Entwickllung](images/umldiagramme/zusammenspiel.png)
+
 * Der Ablauf eines Use-Cases wird durch ein Aktivitätsdiagramm modelliert.
 * Szenarien eines Use-Cases werden durch Interaktionsdiagramme modelliert.
 * Klassendiagramme strukturieren den Use-Case.
@@ -113,14 +115,14 @@ In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich darges
 
 <center>
 
-![Schritt1](images/umldiagramme/bild1.png)
+![Schritt1](images/umldiagramme/bild1.PNG)
 
-![Schritt2](images/umldiagramme/bild2.png)
+![Schritt2](images/umldiagramme/bild2.PNG)
 
-![Schritt3](images/umldiagramme/bild3.png)
+![Schritt3](images/umldiagramme/bild3.PNG)
 
-![Schritt4](images/umldiagramme/bild4.png)
+![Schritt4](images/umldiagramme/bild4.PNG)
 
-![Schritt5](images/umldiagramme/bild5.png)
+![Schritt5](images/umldiagramme/bild5.PNG)
 
 </center>
