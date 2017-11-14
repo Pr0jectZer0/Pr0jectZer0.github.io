@@ -16,8 +16,8 @@ Gruppe 3
 
 * Einteilung erfolgt jeweils Freitags im Praktikum
 * max. 3 Personen
-* Vorgabe Repositry: [Pr0jectZer0.github.io](https://github.com/Pr0jectZer0/Pr0jectZer0.github.io)
-  * beim ersten mal ein fork des Repositries erstellen
+* Vorgabe Repository: [Pr0jectZer0.github.io](https://github.com/Pr0jectZer0/Pr0jectZer0.github.io)
+  * beim ersten mal ein fork des Repositories erstellen
   * mit dem geforkten Repositry könnt ihr dann arbeiten, Pull-Request erstellen und Änderungen aus der Vorgabe holen
 * Abgabe bis __Mittwoch 20:00 Uhr__ als Git Pull-Request
 * Besprechung am Donnerstag beim Gruppentreffen
