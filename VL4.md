@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Vorlesung 4"
 ---
 
@@ -6,48 +6,54 @@ title: "Vorlesung 4"
 -------------
 
 
-**Inhalt:** Was bedeutet Continuous Integration, Continuous Delivery und Continuous Deployment und wie unterscheiden Sie sich? Was sind Build-Server und wofÃ¼r werden Sie benÃ¶tigt?
+**Inhalt:** Was bedeutet Continuous Integration, Continuous Delivery und Continuous Deployment und wie unterscheiden Sie sich? Was sind Build-Server und wofür werden Sie benötigt?
 
 ----------
 
 **Continuous Integration:** 
-ist eine Praxis in der Softwareentwicklung. Dabei werden isolierte Ã„nderungen sofort geprÃ¼ft und zur Gesamtcodebasis einer Software hinzugefÃ¼gt.
+ist eine Praxis in der Softwareentwicklung. Dabei werden isolierte Änderungen sofort geprüft und zur Gesamtcodebasis einer Software hinzugefügt.
 
 > **Um dies zu erreichen, umfasst Continuous Integration folgendes:**
 
-> - Entwickler fÃ¼hren mindestens einmal am Tag einen Check-In ihres Codes durch
+> - Entwickler führen mindestens einmal am Tag einen Check-In ihres Codes durch
 > - Der Code wird bei jedem Check-In gebaut
 > - Code wird bei jedem Check-In automatisch mit Unit-Tests getestet
 > - Jeder hat Zugriff auf den Build und die Testreports
 > - Der Build ist schnell, sodass Entwickler schnell Feedback bekommen
-> - Tests werden in einer herunterskalierten Version der Produktionsumgebung ausgefÃ¼hrt
+> - Tests werden in einer herunterskalierten Version der Produktionsumgebung ausgeführt
 
-Wird kontinuierliche Integration richtig angewandt, bietet der Ansatz verschiedene **Vorteile**, wie z.B. stÃ¤ndige Feedbacks zum Status der Software. Zudem kÃ¶nnen MÃ¤ngel bereits in einem frÃ¼hen Entwicklungsstadium erkannt werden, sodass zukÃ¼nftige Softwarefehler kleiner sowie weniger komplex ausfallen und sich somit einfacher beseitigen lassen. 
+Wird kontinuierliche Integration richtig angewandt, bietet der Ansatz verschiedene **Vorteile**, wie z.B. ständige Feedbacks zum Status der Software. Zudem können Mängel bereits in einem frühen Entwicklungsstadium erkannt werden, sodass zukünftige Softwarefehler kleiner sowie weniger komplex ausfallen und sich somit einfacher beseitigen lassen. 
 
-**Ziel** der kontinuierlichen Integration ist es, ein unmittelbares Feedback bieten zu kÃ¶nnen, so dass ein versehentlich integrierter Fehler so schnell wie mÃ¶glich identifiziert und korrigiert wird. 
+**Ziel** der kontinuierlichen Integration ist es, ein unmittelbares Feedback bieten zu können, so dass ein versehentlich integrierter Fehler so schnell wie möglich identifiziert und korrigiert wird. 
 
-Wenn diese Bedingungen umgesetzt werden, ist man auf einem â€reifenâ€œ CI-Level und bereit fÃ¼r den nÃ¤chsten Schritt: **Continuous Delivery**.
+Wenn diese Bedingungen umgesetzt werden, ist man auf einem „reifen“ CI-Level und bereit für den nächsten Schritt: **Continuous Delivery**.
+
+Bildliche Veranschaulichung des Continuous Integration:
+<img src="./images/continuous integration.png" id="img_reg_web" width="340">
 
 ----------
 
 **Continuous Delivery:** 
-bezeichnet in der Softwareentwicklung eine Sammlung von Techniken, Prozessen und Werkzeugen, welche kurze Entwicklungszyklen mit hÃ¤ufigen Softwareupdates bis hin zum produktiven System ermÃ¶glicht. Dies wird ermÃ¶glicht durch eine weitgehend automatisierte â€Deployment pipelineâ€œ bzw. â€Delivery pipelineâ€œ mit automatisierten Build-Prozessen, Auslieferungen, Installationen, Tests (Continous Integration) und Deployments. 
+bezeichnet in der Softwareentwicklung eine Sammlung von Techniken, Prozessen und Werkzeugen, welche kurze Entwicklungszyklen mit häufigen Softwareupdates bis hin zum produktiven System ermöglicht. Dies wird ermöglicht durch eine weitgehend automatisierte „Deployment pipeline“ bzw. „Delivery pipeline“ mit automatisierten Build-Prozessen, Auslieferungen, Installationen, Tests (Continous Integration) und Deployments. 
 
-Die **Vorteile** dieses Vorgehens sind zum einen geringere Kosten wegen hÃ¶herer Automatisierung und hÃ¶here ZuverlÃ¤ssigkeit durch mehr automatisierte Tests sowie schnelleres Entdecken von Fehlern.
+Die **Vorteile** dieses Vorgehens sind zum einen geringere Kosten wegen höherer Automatisierung und höhere Zuverlässigkeit durch mehr automatisierte Tests sowie schnelleres Entdecken von Fehlern.
 
-**Ziel:** Mit jeder erfolgreich durchlaufenden Umgebung wÃ¤chst die Wahrscheinlichkeit, dass die Software auch in der Produktiv-Umgebung lauffÃ¤hig sein wird. Ziel ist es somit, den Schritt in die Produktion soweit vorzubereiten, dass im Prinzip â€per Knopfdruckâ€œ in die Produktion gegangen werden kann.
+**Ziel:** Mit jeder erfolgreich durchlaufenden Umgebung wächst die Wahrscheinlichkeit, dass die Software auch in der Produktiv-Umgebung lauffähig sein wird. Ziel ist es somit, den Schritt in die Produktion soweit vorzubereiten, dass im Prinzip „per Knopfdruck“ in die Produktion gegangen werden kann.
 
 ----------
 
-Der letzte Schritt ist **Continous Deployment**. Beim Continous Delivery legt man fest, wann man in Produktion geht, beim Continous Deploment hingegen ist es keine Wahl die sich manuell steuern lÃ¤sst, sondern ein automatisierter Prozess.
+Der letzte Schritt ist **Continous Deployment**. Beim Continous Delivery legt man fest, wann man in Produktion geht, beim Continous Deploment hingegen ist es keine Wahl die sich manuell steuern lässt, sondern ein automatisierter Prozess.
 
-Die **Vorteile** sind ein noch schnelleres Feedback, da jede Ã„nderung direkt in Produktion geht und somit das Zeitfenster fÃ¼r eine verlorene Gelegenheit sehr klein ist. 
+Die **Vorteile** sind ein noch schnelleres Feedback, da jede Änderung direkt in Produktion geht und somit das Zeitfenster für eine verlorene Gelegenheit sehr klein ist. 
+
+Continuous Integration vs. Continous Deployment:
+<img src="./images/delivery vs. deployment.gif" id="img_reg_web" width="340">
 
 ----------
 
 **Build-Server:**
-stellen einen zentralen Ort dar, an dem der aktuelle Stand der Software (in Form von Testergebnissen und kompilierten Artefakten) einsehbar ist. Build-Server werden Ã¼blicherweise als Continuous Integration Server oder einfach CI-Server bezeichnet, wobei alle Prozesse innerhalb eines Build-Server vollautomatisch ablaufen und somit Fehler durch falsche, ausgelassene oder vertauschte Prozess-Schritte ausgeschlossen werden. Ãœber die kontinuierliche Integration hinaus kÃ¶nnen Build-Server Continuous Deployment ermÃ¶glichen und Updates fÃ¼r die Produktion bereitstellen, wenn Builds erfolgreich sind und alle Tests bestehen. 
-**Beispiele** fÃ¼r einen Build-Server sind z.B. Jenkins und Travis CI.
+stellen einen zentralen Ort dar, an dem der aktuelle Stand der Software (in Form von Testergebnissen und kompilierten Artefakten) einsehbar ist. Build-Server werden üblicherweise als Continuous Integration Server oder einfach CI-Server bezeichnet, wobei alle Prozesse innerhalb eines Build-Server vollautomatisch ablaufen und somit Fehler durch falsche, ausgelassene oder vertauschte Prozess-Schritte ausgeschlossen werden. Über die kontinuierliche Integration hinaus können Build-Server Continuous Deployment ermöglichen und Updates für die Produktion bereitstellen, wenn Builds erfolgreich sind und alle Tests bestehen. 
+**Beispiele** für einen Build-Server sind z.B. Jenkins und Travis CI.
 
 ----------
 
