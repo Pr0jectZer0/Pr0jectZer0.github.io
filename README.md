@@ -24,10 +24,10 @@ Gruppe 3
 
 #### Abgabe Termine
 
-* <span style="color:green">__25.10.2017:__</span> Kühnert, Novakovic, Posselt,  Reinke, Turon
-* <span style="color:green">__01.11.2017:__</span> Kröker, Novakovic, Paul, Posselt,  Stuwe
-* <span style="color:green">__08.11.2017:__</span> Elges, Köhn, Wulf
-* <span style="color:red">__15.11.2017:__</span> TBD
+* <span style="color:green">__25.10.2017:__</span> Kühnert, Novakovic, Posselt,  Reinke, Turon (VL01)
+* <span style="color:green">__01.11.2017:__</span> Kröker, Novakovic, Paul, Posselt,  Stuwe (VL02)
+* <span style="color:green">__08.11.2017:__</span> Elges, Köhn, Wulf (VL03)
+* <span style="color:green">__15.11.2017:__</span> Kramer (VL04), Deutsch, Stuwe, Penner (VL05)
 * <span style="color:red">__22.11.2017:__</span> TBD
 * <span style="color:red">__29.11.2017:__</span> TBD
 * <span style="color:red">__08.12.2017:__</span> TBD
