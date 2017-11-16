@@ -23,7 +23,8 @@ date: "14/11/2017"
 * Erhöht Verständlichkeit
   * Objekte als Konzept aus der realen Welt intuitiv verständlich
 * Erhöht Wiederverwendbarkeit
-  * Relativ abgeschlossene Objektdefinitionen und –implementierungen lassen sich leicht wiederverwenden
+
+* Relativ abgeschlossene Objektdefinitionen und –implementierungen lassen sich leicht wiederverwenden
 
 #### Objektorientierte Analyse (OOA)
 * Fachliche Beschreibung der Systemanforderungen und Präzisierung des Problems
@@ -69,6 +70,7 @@ date: "14/11/2017"
 
 </center>
 Vorlesungsrelevant: Klassendiagramm, Paketdiagramm, Objektdiagramm, Komponentendiagramm, Verteilungsdiagramm, Aktivitätsdiagramm, Anwendungsfalldiagramm, Sequenzdiagramm, Zustandsdiagramm
+
 
 ### Modelle und UML-Diagramme
 
