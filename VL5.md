@@ -52,9 +52,7 @@ date: "14/11/2017"
 
 ### Kommunikation über UML-Modelle
 <center>
-
 ![Kommunikation](./images/umldiagramme/kommunikationsdiagramm.png)
-
 </center>
 
 #### UML (Unified Modeling Language)
@@ -64,16 +62,12 @@ date: "14/11/2017"
 * bietet viele Freiheiten bei der Modellierung.
 
 ### UML - Diagrammtypen
-<center>
+
 
 ![Diagrammtypen-Baum](./images/umldiagramme/diagrammtypen.png)
 
-</center>
 Vorlesungsrelevant: Klassendiagramm, Paketdiagramm, Objektdiagramm, Komponentendiagramm, Verteilungsdiagramm, Aktivitätsdiagramm, Anwendungsfalldiagramm, Sequenzdiagramm, Zustandsdiagramm
-
-
 ### Modelle und UML-Diagramme
-
 Mit UML lassen sich Software-Systeme modellieren und darstellen. Diese Modelle und Darstellungen lassen sich wie folgt unterteilen:
 * __Funktionale Modellierung__
 	* Menge von Funktionen, Anwendungsfällen und Diensten
@@ -94,37 +88,32 @@ Die Diagramme verfeinern sich von oben nach unten und lassen sich wie oben erwä
 
 Im folgendem werden die _wichtigsten_ Diagramme erklärt:
 * __Use-Case__(Anwendungsfall)
-	* beschreibt Anforderung
-	* Außensicht auf das Produkt
-	* Testgrundlagen
-<img src="images/Usecase.png" alt="Usecase" width="200"/>
-
+	* beschreibt Anforderung                                   
+	* Außensicht auf das Produkt                                
+	* Testgrundlagen                                            
+<img src="images/Usecase.png" alt="Usecase" width="500"/>
 * __Dynamisches Aktivitätsdiagramm__
-	* beschreibt einen Workflow/Szenario
+	* beschreibt einen Workflow/Szenario                             
 	* Klassen,Objekte und Beziehungen lassen sich hieraus extrahieren
-<img src="images/Aktivitätsdiagramm.png" alt="Aktivitätsdiagramm" width="200"/>
-
+<img src="images/Aktivitätsdiagramm.png" alt="Aktivitätsdiagramm" width="500"/>
 * __Statisches Paketdiagramm__
 	* besteht aus zusammenhängenden Klassen
 	* verständlich ohne tiefgehende Untersuchung der Klassen
-
 * __Paket- und Klassendiagramm__
 	* guter Überblick über die Ergebnisse des statischen Software-Entwurfs
-<img src="images/Packetdiagramm.PNG" alt="Paketdiagramm" width="200"/>
-<img src="images/Klassendiagramm.png" alt="Klassendiagramm" width="200"/>
-
+<img src="images/Packetdiagramm.PNG" alt="Paketdiagramm" width="500"/>
+<img src="images/Klassendiagramm.png" alt="Klassendiagramm" width="500"/>
 * __Sequenz- und Kommunikationsdiagramm__
-	* sind dynamisch
-	* beschreibt den Nachrichtenaustausch in einem System
-	* Verhalten steht im Vordergrund
-<img src="images/Squenzdiagramm.png" alt="Sequenzdiagramm" width="200">
-<img src="images/Kommunikationsdiagramm.png" alt="Kommunikationsdiagramm" width="200"/>
-
+	* sind dynamisch                                         
+	* beschreibt den Nachrichtenaustausch in einem System    
+	* Verhalten steht im Vordergrund                         
+<img src="images/Squenzdiagramm.png" alt="Sequenzdiagramm" width="500">
+<img src="images/Kommunikationsdiagramm.png" alt="Kommunikationsdiagramm" width="500"/>
 * __Zustandsübergangsdiagramm__
-	* sehr kleinteilig
-	* beschreibt Zustand eines Objekts im Verlauf
-	* gut zum Ermitteln neuer Attribute und Methoden
-<img src="images/Zustandsdiagramm.png" alt="Sequenzdiagramm" width="200"/>
+	* sehr kleinteilig                                             
+	* beschreibt Zustand eines Objekts im Verlauf                  
+	* gut zum Ermitteln neuer Attribute und Methoden               
+<img src="images/Zustandsdiagramm.png" alt="Sequenzdiagramm" width="500"/>
 
 
 ### Zuordnung der UML-Diagrammtypen zu Phasen der Softwareentwicklung
