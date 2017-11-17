@@ -148,15 +148,15 @@ In der Grafik sind einige der oben genannten Zugehörigkeiten anschaulich darges
 ### Pragmatisches "Schritt für Schritt" Vorgehensmodell
 
 
-<img src="./images/umldiagramme/bild1.PNG" alt="Kommunikationsdiagramm" width="500"/>
+<img src="./images/umldiagramme/bild0.PNG" alt="SchrittFürSchritt0" width="500"/>
+_
+<img src="./images/umldiagramme/bild1.PNG" alt="SchrittFürSchritt1" width="500"/>
 _														
-<img src="./images/umldiagramme/bild2.PNG" alt="Kommunikationsdiagramm" width="300"/>
+<img src="./images/umldiagramme/bild2.PNG" alt="SchrittFürSchritt2" width="300"/>
 _														
-<img src="./images/umldiagramme/bild3.PNG" alt="Kommunikationsdiagramm" width="500"/>
+<img src="./images/umldiagramme/bild3.PNG" alt="SchrittFürSchritt3" width="500"/>
 _														
-<img src="./images/umldiagramme/bild4.PNG" alt="Kommunikationsdiagramm" width="450"/>
+<img src="./images/umldiagramme/bild4.PNG" alt="SchrittFürSchritt4" width="450"/>
 _														
-<img src="./images/umldiagramme/bild5.PNG" alt="Kommunikationsdiagramm" width="400"/>
+<img src="./images/umldiagramme/bild5.PNG" alt="SchrittFürSchritt5" width="400"/>
 _														
-
-
