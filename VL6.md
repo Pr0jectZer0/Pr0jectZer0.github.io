@@ -83,6 +83,26 @@ date: "20/11/2017"
 * User Stories werden im Gegensatz zu Use Cases nicht als Instrument zur  Dokumentation eingesetzt, sondern als Basis, um über Anforderungen zu reden
 * User Stories werden als Planungsinstrument eingesetzt und so lange kompakt „kleingeschnitten“, bis sie in einem festgelegten Zeitraum einer Iteration umgesetzt werden können
 
+### Szenario
+
+#### Anwendungsfall
+Beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
+
+#### Szenario
+Eine konkrete Ausprägung eines Anwendungsfalls. Das bedeutet ein möglicher Ablauf mit konkreten Werten.
+Ein Szenario ist eine Instanz eines Anwendungsfalls.
+
+* Szenarien sind Beschreibungen des Systems, wie es in der Praxis benutzt wird
+* Ein Anwendungsfall kann mehrere Szenarien haben
+* Szenarien sind hilfreich bei der Anforderungsermittlung, da Personen diese besser verstehen als abstrakte Angaben
+* Szenarien können durch Interaktionsdiagramme (Sequenzdiagramm, Kommunikationsdiagramm) dargestellt werden
+* Ein Szenario beschreibt eine Abfolge von Schritten, die vom Use Case zu durchlaufen sind
+    * __Normalabläufe__ zeigen auf, wie der Anwendungsfall "normalerweise" (erfolgreich) abläuft
+    * __Alternativabläufe__ zeigen "andere" Wege zum Ziel auf, als dies im Normalablauf dargestellt wird
+    * __Ausnahmeabläufe__ führen nicht zum Ziel, z.B. infolge eines "fachlichen Fehlers" oder bei einem Abbruch durch den Akteur
+
+<img src="./images/umlUseCase/szenario.png" width="600">
+
 ### Notationselemente für Use Case Diagramme
 
 <img src="./images/umlUseCase/useCaseVerkauf.png" width="600">
