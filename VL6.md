@@ -10,9 +10,7 @@ date: "20/11/2017"
 ### Satzschablonen für die Anforderungsermittlung
 
 #### Visualisierung der Systemaktivitäten
-<center>
-![OOD](/images/visualisierungsystemaktivitaeten.png)
-</center>
+<img src="./images/umlUseCase/visualisierungsystemaktivitaeten.png" width="600">
 
 #### Charakterisierung der Systemaktivitäten
 1. Selbstständige Systemaktivität
@@ -23,9 +21,7 @@ date: "20/11/2017"
   Das System führt einen Prozess in Abhängigkeit von einem Dritten (zum Beispiel einem Fremdsystem) aus, ist an sich passiv und wartet auf ein externes Ereignis.
 
 #### Satzschablone nach Rupp
-<center>
-![OOD](/images/satzschablone.png)
-</center>
+<img src="./images/umlUseCase/satzschablone.png" width="600">
 
 ##### Selbstständige Systemaktivität Beispiele
 * Nach der Eingabe eines neuen Teilprojekts und nach der Aktualisierung des Aufwandes eines Teilprojekts oder einer neuen Projektaufgabe muss das System die **Aufwandsangaben auf Plausibilität** prüfen.
@@ -64,9 +60,7 @@ date: "20/11/2017"
 | SOBALD | - | X | Das Wort *sobald* bedeutet, dass ein System eine gestartete Aufgabe **nicht** vollständig abgearbeitet haben muss, bevor das System eine neue Aufgabe beginnt. |
 | SOLANGE | - | X | Das Wort *solange* bedeutet, dass das System eine bereits gestartete Aufgabe **nicht** vollständig abgearbeitet haben muss, bevor das System eine weitere Aufgabe beginnt. Die neu gestartete Aufgabe wird exakt solange ausgeführt, wie die vorher bereits gestartete Aufgabe andauert. |
 
-<center>
-![OOD](/images/if.png)
-</center>
+<img src="./images/umlUseCase/if.png" width="600">
 
 ### Was ist ein Anwendungsfall(Use Case)?
 
