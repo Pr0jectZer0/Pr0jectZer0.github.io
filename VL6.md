@@ -133,7 +133,7 @@ Ein Szenario ist eine Instanz eines Anwendungsfalls.
 * Dabei wird die Nummer des Schrittes vom Ablauf unverändert übernommen und hinter der Nummer alphabetisch weiter nummeriert
 * Ein einzelner Schritt beginnt immer mit der Nennung des Aktors
 
-<img src="./images/umlUseCase/ablauf.png">
+<img src="./images/umlUseCase/ablauf.png" width="600">
 
 ### Beispiele
 <img src="./images/umlUseCase/beispiel1.png" width="300">
