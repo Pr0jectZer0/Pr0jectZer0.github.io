@@ -19,19 +19,24 @@ date: "20/11/2017"
 
 * Wichtige Stakeholder: Kunde, Mitarbeiter, Gesellschafter, Eigentümer, Zulieferer, andere Dienstleister 
 
+  ​
+
   <img src="images/Stakeholder.png" width=600>
 
 #### Arten der Anforderungsanalyse
 
 * Lastenheft:
 
-  * Nutzeranforderungen: Problembeschreibung aus der Sicht des Nutzers/Kunden 
+  * Problembeschreibung aus der Sicht des Nutzers/Kunden 
   * "Das will ich haben"
 
 * Pflichtenheft:
 
   * Problembeschreibung aus der Sicht des "Realisierer"
+
   * "So will ich es machen"
+
+    ​
 
   <img src="images/LastenPflichtenheft.png" width=600>
 
@@ -50,9 +55,9 @@ date: "20/11/2017"
 
 #### Ziele der Anforderungsanalyse
 
-* Unterstüzung des Arbeitgebers bei der Ermittlung der Anforderungen 
-* Unterstüzung des Anforderungsanalytiker bei der Aufbereitung der Anforderungen 
-  * Formulieren, Klassifizieren, Hierachisieren, Präzisieren, Priorisieren
+* Unterstützung des Arbeitgebers bei der Ermittlung der Anforderungen 
+* Unterstützung des Anforderungsanalytikers bei der Aufbereitung der Anforderungen 
+  * Formulieren, Klassifizieren, Hierarchisieren, Präzisieren, Priorisieren
 
 ### Was sind Anforderungen? 
 
@@ -60,9 +65,9 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 
 ##### Was beschreiben Anforderungen?
 
-* Eigenschagten/Bedingungen, um ein Problem zu lösen oder ein Ziel zu erreichen 
-* Eigenschaften/Bedingungen, die ein System / eine Systemkomponente erfüllen muss, um einen Vertrag, eine Norm, eine Spezifikation oder andere formal festgelegte Dokuemte zu erfüllen 
-* Die Anforderungsbeschreibung legt fesr, was ein Produkt "können soll/muss", nicht wie es realisiert werden soll
+* Eigenschaften / Bedingungen, um ein Problem zu lösen oder ein Ziel zu erreichen 
+* Eigenschaften / Bedingungen, die ein System / eine Systemkomponente erfüllen muss, um einen Vertrag, eine Norm, eine Spezifikation oder andere formal festgelegte Dokuemte zu erfüllen 
+* Die Anforderungsbeschreibung legt fest, was ein Produkt "können soll / muss", nicht wie es realisiert werden soll
 
 ##### Wege zu und Quellen von Anforderungen 
 
@@ -76,12 +81,14 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 
 ##### Arten von Anforderungen 
 
-* Funktionale Anforderungen: Was soll das zu entwickelnde Softwaresystem tun?
-* Nicht-funktionale Anforderungen: Welche Eigenschaften soll das zu entwickelnde Softwaresystem zusätzlich zur Funktionalität aufweisen?
+* Funktionale Anforderungen: 
+  * Was soll das zu entwickelnde Softwaresystem tun?
+* Nichtfunktionale Anforderungen: 
+  * Welche Eigenschaften soll das zu entwickelnde Softwaresystem zusätzlich zur Funktionalität aufweisen?
 
 <img src="images/ArtenAnforderungen.png" width=600>
 
-| Funktionale Anforderungen                | Nichtfunltionale Anforderungen           |
+| Funktionale Anforderungen                | Nichtfunktionale Anforderungen           |
 | :--------------------------------------- | :--------------------------------------- |
 | Funktionalitäten: <br />Algorithmen,  Abläufe | Leistungsanforderungen: <br />Benutzerzahl, Datenumfang, Antwortzeiten |
 | Daten: <br />Eingaben, Ausgaben, Datenmodelle | Qualitätsanforderungen: <br />Zuverlässigkeit, Sicherheit, Robustheit, Portierbarkeit |
@@ -96,12 +103,12 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 <img src="images/probleme.png" width=600>
 
 * Kunde weiß nicht, was er will 
-* Anforderungsbeschreibungen sind nicht maschinell verarbeitbar und daher oft nicht verständlich, unverständlich und inkonsistent 
+* Anforderungsbeschreibungen sind nicht maschinell verarbeitbar und daher oft unverständlich und inkonsistent 
 * Auftraggeber, Nutzer, Betreiber etc. sind häufig verschiedene Personen und unterschiedliche Personen haben teilweise widersprüchliche Anforderungen 
 * Unterschiede und Widersprüche werden nicht erkannt 
 * Zu viele Anforderungen 
-* Anforderungen ändern sich im Laufe der Entwicklungszeit: Änderungsmanagement der Anforderungen 
-* Auslassungen bzw. implizite Annamen, da etwas für Experten "offensichtlich" ist 
+* Anforderungen ändern sich im Laufe der Entwicklungszeit - Änderungsmanagement der Anforderungen 
+* Auslassungen bzw. implizite Annahmen, da etwas für Experten "offensichtlich" ist 
 * Keine klaren Enscheidungen im Konfliktfall
 * Mögliche Auswirkungen werden nicht aufgezeigt 
 * Systemumgebung ist nicht klar beschireben oder ändert sich 
@@ -110,7 +117,7 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 
 | Anforderungen sind | Beispiele                 |
 | ------------------ | ------------------------- |
-| mehrdeutig         | ein Fahrrad, wie Kaus     |
+| mehrdeutig         | ein Fahrrad wie Kaus      |
 | nicht erfüllbar    | Sandmännchen kennenlernen |
 | überbestimmt       | ein runder Ball           |
 | inkonsistent       | ein schnelles Auto        |
@@ -129,9 +136,10 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 <img src="images/umlAnforderungen.png" width=600>
 
 * Use Case Satzschablone:
-  * Präzisierung der natürlichsprachlichen Anforderungen. Hilft, die Anforderungen mit dem Kunden in eindeutiger und Konsistenter Weise zu formulieren
+  * Präzisierung der natürlichsprachlichen Anforderungen. 
+  * Hilft, die Anforderungen mit dem Kunden in eindeutiger und konsistenter Weise zu formulieren
 * Textuelle Use Case Definition:
-  * Natürlichsprachliche Beschreibung der Arbeitsläufe dür größere Use Cases. D.h. nähere Beschreibung der Interaktionen von Aktueren mit einem System. Häufig ergänzt um Zustand- und Aktivitätsdiagramme 
+  * Natürlichsprachliche Beschreibung der Arbeitsläufe durch größere Use Cases. D.h. nähere Beschreibung der Interaktionen von Aktueren mit einem System. Häufig ergänzt um Zustand- und Aktivitätsdiagramme 
 * Use Case Diagramme 
   * Zeigt das externe Verhalten eines Systems gegenüber seinen Akteuren und stellt strukturelle Abhängigkeiten zwischen den Anwendungsfällen und den Akteuren dar	
 
