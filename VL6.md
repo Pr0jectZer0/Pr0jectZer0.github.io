@@ -219,6 +219,65 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 * User Stories werden im Gegensatz zu Use Cases nicht als Instrument zur  Dokumentation eingesetzt, sondern als Basis, um über Anforderungen zu reden
 * User Stories werden als Planungsinstrument eingesetzt und so lange kompakt „kleingeschnitten“, bis sie in einem festgelegten Zeitraum einer Iteration umgesetzt werden können
 
+### Szenario
+
+#### Anwendungsfall
+Beschreibt eine abstrakte Interaktion zwischen Akteuren und dem System
+
+#### Szenario
+Eine konkrete Ausprägung eines Anwendungsfalls. Das bedeutet ein möglicher Ablauf mit konkreten Werten.
+Ein Szenario ist eine Instanz eines Anwendungsfalls.
+
+* Szenarien sind Beschreibungen des Systems, wie es in der Praxis benutzt wird
+* Ein Anwendungsfall kann mehrere Szenarien haben
+* Szenarien sind hilfreich bei der Anforderungsermittlung, da Personen diese besser verstehen als abstrakte Angaben
+* Szenarien können durch Interaktionsdiagramme (Sequenzdiagramm, Kommunikationsdiagramm) dargestellt werden
+* Ein Szenario beschreibt eine Abfolge von Schritten, die vom Use Case zu durchlaufen sind
+    * __Normalabläufe__ zeigen auf, wie der Anwendungsfall "normalerweise" (erfolgreich) abläuft
+    * __Alternativabläufe__ zeigen "andere" Wege zum Ziel auf, als dies im Normalablauf dargestellt wird
+    * __Ausnahmeabläufe__ führen nicht zum Ziel, z.B. infolge eines "fachlichen Fehlers" oder bei einem Abbruch durch den Akteur
+
+<img src="./images/umlUseCase/szenario.png" width="600">
+
+### Textuelle Use Case Definition 
+
+#### Schablone zur textuellen Definition von Use Cases
+
+| Name | Beschreibung |
+|:---:|:---:|
+| ID | Eindeutige Nummer zur Identifikation |
+| Autor | Die Ersteller des Use Case |
+| Version | Aktuelle Version, möglichst mit Änderungshistorie, wer hat wann was geändert |
+| Kurzbeschreibung | Kurze Beschreibung, was mit dem Use Case erreicht werden soll |
+| Aktoren | Welche Aktoren sind beteiligt, wer stößt den Use Case an |
+| Auslöser | Wie oder durch was wird der Use Case ausgelöst |
+| Verknüpfungen | Welche Zusammenhänge bestehen zu anderen Use Cases |
+| Fachverantwortlicher | Wer steht auf fachlicher Seite für Fragen zum Use Case zur Verfügung und entscheidet auf Auftraggeberseite |
+| Referenzen | Nennung aller Informationen, die in späteren Phasen zu beachten und hilfreich sind (Gesetze, Normen, existierende Systeme) |
+| Vorbedingungen | Was muss erfüllt sein, damit der Use Case starten kann |
+| Nachbedingungen | Wie sieht das mögliche Ergebnis aus, im nächsten Schritt sind auch die Ergebnisse alternativer Abläufe zu berücksichtigen |
+| Typischer Ablauf | Welche einzelnen Schritte werden im Use Case durchlaufen, dabei wird nur der gewünschte typische Ablauf dokumentiert |
+| Alternative Abläufe | Welche Alternativen existieren zum typischen Ablauf |
+| GUI Mockup Referenz | Durch welchen GUI-Mockup wird dieser Use Case beschrieben? |
+| Priorität | Relevanz des Use Case |
+
+#### Definition 
+* In der Zeile _Ablauf_ steht der ganze Ablauf des Use Cases mit allen möglichen Ausnahmen und/oder Varianten
+* Dies sind die Szenarien
+* Der Ablauf wird in Schritte unterteilt und jeder Schritt fortlaufend nummeriert
+* Kann bei einem Schritt eine Ausnahme oder Variante („extension point“ im UC-Diagramm) eintreten, so wird dies unter alternativen Abläufen erwähnt
+* Dabei wird die Nummer des Schrittes vom Ablauf unverändert übernommen und hinter der Nummer alphabetisch weiter nummeriert
+* Ein einzelner Schritt beginnt immer mit der Nennung des Aktors
+
+<img src="./images/umlUseCase/ablauf.png" width="600">
+
+### Beispiele
+<img src="./images/umlUseCase/beispiel1.png" width="300">
+<img src="./images/umlUseCase/beispiel2.png" width="300">
+<img src="./images/umlUseCase/beispiel3.png" width="300">
+
+
+
 ### Notationselemente für Use Case Diagramme
 
 <img src="./images/umlUseCase/useCaseVerkauf.png" width="600">
