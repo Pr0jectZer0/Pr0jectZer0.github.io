@@ -96,7 +96,7 @@ Anforderungen legen die qualitativen und quantitativen Eigenschaften eines Softw
 
 #### Nichtfunktionale Anforderungen
 
-<img src="images/nichtFunktionale.png" width=600>
+<img src="images/nichtFunktionaleAnforderungen.png" width=600>
 
 ### Probleme bei der Anforderungsanalyse 
 
