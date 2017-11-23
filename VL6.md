@@ -350,7 +350,7 @@ Beispiele
 
 <img src="./images/umlUseCase/Einweihungsfeier.png" width="500">
 
-<img src="./images/umlUseCase/Bierzelt.png" width="500">
+<img src="./images/umlUseCase/bierzelt.png" width="500">
 
 ### Best Practices
 
