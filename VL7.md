@@ -61,9 +61,19 @@
 - Algorithmus einer Operation
 <img src="images/VL07_UseCase.png" width=1000>
 
+#### Zu jedem Use Case genau ein Aktivitätsdiagramm modellieren
+- Erzeugen Sie aus den Use Case-Schritten Aktionen.
+- Zerlegen Sie die Aktionen ggfs. mit einem Aktivitätsdiagramm, so dass sie stets genau einen fachlichen Arbeitsschritt repräsentieren.
+- Ergänzen Sie den Ablauf um alle bekannten fachlichen Ausnahmen und fachlichen Ablaufvarianten, so dass das Diagramm eine vollständige Beschreibung aller zulässigen Ablaufmöglichkeiten darstellt.
+#### Modellierung des Objektflusses
+- Beschreiben Sie zu jeder Aktion die zu verarbeitenden und die resultierenden  Geschäftsobjekte.
+- Beschreiben Sie, bei welchen ausgehenden Transitionen bzw. Bedingungen welche Objekte bzw. Objektzustände resultieren.
 
 ## Notationselemente für Aktivitätsdiagramme
-
+<img src="images/VL07_aktivitätsdiagramm_01.png" width=1000>
+<img src="images/VL07_aktivitätsdiagramm_02.png" width=1000>
+<img src="images/VL07_aktivitätsdiagramm_03.png" width=1000>
+<img src="images/VL07_aktivitätsdiagramm_04.png" width=1000>
 ## Aktivitätsdiagramme Beispiele
 
 ## Best Practices
