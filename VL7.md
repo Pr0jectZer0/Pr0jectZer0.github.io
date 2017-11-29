@@ -76,6 +76,7 @@
 <img src="images/VL07_aktivitätsdiagramm_02.png" width=1000>
 <img src="images/VL07_aktivitätsdiagramm_03.png" width=1000>
 <img src="images/VL07_aktivitätsdiagramm_04.png" width=1000>
+
 ## Aktivitätsdiagramme Beispiele
 
 ## Best Practices
