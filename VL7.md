@@ -1,4 +1,8 @@
-# Systemanalyse mit Aktivitaetsdiagrammen
+﻿# Systemanalyse mit Aktivitaetsdiagrammen
+
+## Vorlesungsaufgabe
+
+<img src="images/Aktivitaetsdiagramme/Aktivitätsdiagramm.png" width=1000">
 
 ## Grundlagen
 
