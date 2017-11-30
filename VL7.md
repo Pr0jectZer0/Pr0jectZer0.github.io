@@ -31,6 +31,7 @@
 - Die Systemarchitektur anhand von Beschreibungen (Source Code, natürliche Sprache) zu verstehen, ist schwer und kostet Zeit
 - Daher wird die Systemarchitektur visuell auf abstraktem Niveau zum Beispiel als Client-Server-Architektur oder als Peer-to-Peer Architektur in Form eines „Box-and-arrows“-Diagramms
 <img src="images/VL07_systemarchitektur_beispiel.png" width=1000>
+
 - Benutzen Sie dieselben Symbole für die gleichen Dinge
 - Fügen Sie eine Legende hinzu
 
