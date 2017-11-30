@@ -80,6 +80,215 @@
 <img src="images/VL07_aktivitätsdiagramm_02.png" width=1000>
 <img src="images/VL07_aktivitätsdiagramm_03.png" width=1000>
 <img src="images/VL07_aktivitätsdiagramm_04.png" width=1000>
+<img src="images/VL07_aktivitätsdiagramm_notation_0.png" width=1000>
+
+### Grundlegende Elemente
+#### Aktion
+- Zentrales Element innerhalb eines Aktivitätsdiagramms
+- Modelliert einen einzelnen Schritt einer Aktivität
+- Können über Kanten mit anderen Elementen verbunden werden.
+- Falls bei Aktionsstart oder Aktionsende Bedingungen zu beachten sind, können Notizzettel verwendet werden.
+
+<img src="images/VL07_Aktion_Kante.png" width=250>
+<img src="images/VL07_Aktion_Beispiel.png" width=1000>
+
+#### Initialknoten
+- Startpunkt eines Ablaufes
+- Es muss mindestens ein Initialknoten vorhanden sein
+- Es darf mehrere Initialknoten geben
+
+#### Aktivitätsendknoten
+- Beendet alle Aktionen und Kontrollflüsse
+- Es muss mindestend einen Aktivitätsknoten geben
+
+#### Ablaufendknoten
+- Beendet einen einzelnen Kontrollfluss
+- Konsumiert ein einzelnes Token
+
+#### Decision
+<img src="images/VL07_Decision.png" width=250>
+
+- Verzweigung des Kontrollflusses
+- Besitzt ein oder mehrere Ausgänge, die jeweils mit bestimmten Bedingungen verknüpft sind (Guards)
+- Besitzt exakt einen Eingang
+
+#### Merge 
+<img src="images/VL07_Merge.png" width=250>
+
+- Führt mehrere eingehende Kanten zu einer Ausgehenden Kante zusammen
+- Decision und Merge treten paarweise auf
+- Alle ausgehenden Kanten einer Decision müssen im selben Merge-Knoten zusammengeführt werden
+
+#### Fork
+<img src="images/VL07_Fork.png" width=250>
+
+- Der eingehende Kontrollfluss wird auf mehrere ausgehende, nebenläufige Kontrollflüsse aufgeteilt
+- Keine Bedingung
+- Erlaubt die parallele Ausführung mehrer verschiedener Kontrollflüsse
+
+#### Join
+<img src="images/VL07_Join.png" width=250>
+
+- Wartet auf alle eingehenden Kontrollflüsse bevor es weiter geht
+- Synchronisiert parallele Kontrollflüsse und vereint sie
+
+#### Kontrollknoten im Überblick
+<img src="images/VL07_Knoten_uebersicht.png" width=1000>
+
+#### Waschmaschinen Beispiel
+<img src="images/VL07_Wasch_Beispiel.png" width=500>
+
+#### Objektknoten
+<img src="images/VL07_Objektknoten.png" width=250>
+
+#### Objektknoten Beispiel
+<img src="images/VL07_Objektknoten_beispiel.png" width=1000>
+
+### Kanten (Kontrollfluss / Objektfluss)
+#### Kontrollfluss
+- Kante zwischen zwei Aktionen oder zwischen Aktion und Kontrollelement
+- Token dienen hier nur der Aktionsausführung und besitzen keine Daten
+
+#### Objektfluss
+- Kante mit mindestens einem Objektknoten
+- Kante hat ein Token, der Daten von oder zu Objektknoten transportiert
+
+#### Objektfluss Beispiel
+<img src="images/VL07_objektfluss_beispiel.png" width=1000>
+
+#### Pin-Notation 
+- Kurzschreibweise für einen Objektfluss
+- Der Objektknoten wird direkt an die Aktion angehängt
+- Die Ausgabe einer Aktion ist die Eingabe der nächsten Aktion
+- Beschriftung eines Pins: name:typ
+<img src="images/VL07_pin-notation.png" width=1000>
+
+### Ablaufmodell von Aktivitätsdiagrammen mit Token
+- Die Steuerung der Abläufe in einem Aktivitätsdiagramm erfolgt durch Token. (Kontrolltoken / Datentoken)
+- Ein Token definiert den aktuellen Zustand der Verarbeitung
+- Tokens werden erzeugt, wandern und verarbeitet Wanderung
+
+#### Erzeugung
+- Bei eingangslosen Knoten wird ein Token erzeugt (Startknoten, Signalempfangsknoten)
+- Ein Token pro ausgehenden Fluss
+
+#### Wanderung
+- Aktion startet, bei eintreffen des Tokens
+- Wenn die Aktion beendet wurde, wandert der Token weiter
+- Token wählt einen ausgehenden Fluss
+
+#### Verarbeiten
+- Bei einem Endknoten oder Aufspaltung / Synchronisation werden alle eingehenden Knoten verarbeitet
+
+#### Ablaufmodell von Aktivitätsdiagrammen mit Token - Beispiel
+<img src="images/VL07_ablaufmodell_token_beispiel.png" width=1000>
+
+#### Schachtelung von Aktivitäten - Beispiel
+<img src="images/VL07_schachtelung_aktivitäten_beispiel.png" width=1000>
+
+#### Gewicht einer Kante
+<img src="images/VL07_gewicht_kante.png" width=250>
+
+#### Gewicht einer Kante - Beispiel
+<img src="images/VL07_gewicht_kante_beispiel.png" width=250>
+
+#### Konnektor
+<img src="images/VL07_konnektor.png" width=250>
+
+#### Konnektor - Beispiel
+##### Beispiel1
+<img src="images/VL07_konnektor_beispiel1.png" width=500>
+
+##### Beispiel2
+<img src="images/VL07_konnektor_beispiel2.png" width=500>
+
+### Softwareentwicklungsprozess
+<img src="images/VL07_Softwareentwicklungsprozess.png" width=1000>
+
+
+### Partition, Signal und asynchrones Ereignis/Zeitereignis
+<img src="images/VL07_ad_1.png" width=1000>
+
+### Aktivitätsbereiche
+<img src="images/VL07_ad_2.png" width=500>
+
+- Die Aktionen werden in gekennzeichneten Bereichen angeordnet
+- Die Bereiche beschreiben wer oder was für eine Menge von Knoten verantworlich ist bzw. welche gemeinsame Eigenschaft sie kennzeichnet
+- Beispiel: Verschiedene Abteilungen innerhalb eines Geschäftsprozesses
+- Die Darstellung erfolgt horizontal und vertikal sowie durch eine Matrix oder hierarchisch
+
+#### Einspruchsgesetze vermitteln
+<img src="images/VL07_ad_3.png" width=1000>
+
+#### Auftragsbearbeitung
+<img src="images/VL07_ad_4.png" width=1000>
+
+### Signale und Ereignisse (Sonderform einer Aktion)
+#### Signal Senden
+<img src="images/VL07_ad_5.png" width=250>
+
+- Beispiel:
+
+<img src="images/VL07_ad_6.png" width=250>
+
+- Aktion die unabhängig vom Zeitpunkt des Auftretens ein Signal sendet
+
+#### Signal empfangen
+<img src="images/VL07_ad_7.png" width=250>
+
+- Beispiel:
+
+<img src="images/VL07_ad_8.png" width=250>
+
+- Aktion die unabhängig vom Zeitpunkt des Auftretens auf ein Signal wartet
+- Bei nicht existierendem einlaufendem Fluss können beliebig oft Signale empfangen werden
+
+#### Zeitereignis empfangen
+<img src="images/VL07_ad_9.png" width=200>
+
+- Aktion die unabhängig vom Zeitpunkt des Auftretens ein Signal sendet
+
+#### Beispiele
+##### Geldausgabe/Deckung bestätigen
+<img src="images/VL07_ad_10.png" width=1000>
+
+##### Asynchrones Ereignis/Asynchrones Zeitereignis
+<img src="images/VL07_ad_11.png" width=1000>
+
+##### Ereignisse
+<img src="images/VL07_ad_12.png" width=1000>
+<img src="images/VL07_ad_13.png" width=1000>
+<img src="images/VL07_ad_14.png" width=1000>
+
+#### Exception Handler/Unterbrechungsbereich
+<img src="images/VL07_ad_12.png" width=1000>
+
+### Unterbrechungsbereich
+<img src="images/VL07_ad_16.png" width=1000>
+
+- Motivation
+	- Man möchte Unterbrechungen modellieren (z.B. Exceptions)
+	- Und das Verhalten in einem Fehlerzustand beschreiben
+- Ein Unterbrechungsbereich umschließt eine oder mehrere Aktionen
+- Beim verlassen eines Bereiches über eine Unterbrechungskante...
+	- werden sämtliche Aktionen in dem Bereich unterbrochen
+	- werden alle vorhandenen Token verworfen
+	- wird der Aktivitätsablauf an dem jeweiligen Zielknoten fortgesetzt
+
+### Exception Handler
+- Bearbeitungselement für Ausnahmen, die bei Aktionsausführung auftreten
+- Auftreten von Exception: Prüfung ob Exception-Handler vorhanden ist
+- Exception-Handler ist dann für die Exception passend, wenn der Datenknoten der jeweiligen Aktion kompatibel zum Typ des Eingabeknotens (des Exception-Handlers) ist
+<img src="images/VL07_ad_17.png" width=1000>
+
+### CentralBuffer und Datastore
+<img src="images/VL07_ad_18.png" width=1000>
+
+## Aktivitätsdiagramme Beispiele
+
+### Aktivitätsdiagramme mit Objektfluss
+<img src="images/VL07_ad_19.png" width=1000>
+
 
 ## Aktivitätsdiagramme Beispiele
 
