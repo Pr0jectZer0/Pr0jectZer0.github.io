@@ -201,6 +201,91 @@
 ### Softwareentwicklungsprozess
 <img src="images/VL07_Softwareentwicklungsprozess.png" width=1000>
 
+
+### Partition, Signal und asynchrones Ereignis/Zeitereignis
+<img src="images/VL07_ad_1.png" width=1000>
+
+### Aktivitätsbereiche
+<img src="images/VL07_ad_2.png" width=500>
+
+- Die Aktionen werden in gekennzeichneten Bereichen angeordnet
+- Die Bereiche beschreiben wer oder was für eine Menge von Knoten verantworlich ist bzw. welche gemeinsame Eigenschaft sie kennzeichnet
+- Beispiel: Verschiedene Abteilungen innerhalb eines Geschäftsprozesses
+- Die Darstellung erfolgt horizontal und vertikal sowie durch eine Matrix oder hierarchisch
+
+#### Einspruchsgesetze vermitteln
+<img src="images/VL07_ad_3.png" width=1000>
+
+#### Auftragsbearbeitung
+<img src="images/VL07_ad_4.png" width=1000>
+
+### Signale und Ereignisse (Sonderform einer Aktion)
+#### Signal Senden
+<img src="images/VL07_ad_5.png" width=250>
+
+- Beispiel:
+
+<img src="images/VL07_ad_6.png" width=250>
+
+- Aktion die unabhängig vom Zeitpunkt des Auftretens ein Signal sendet
+
+#### Signal empfangen
+<img src="images/VL07_ad_7.png" width=250>
+
+- Beispiel:
+
+<img src="images/VL07_ad_8.png" width=250>
+
+- Aktion die unabhängig vom Zeitpunkt des Auftretens auf ein Signal wartet
+- Bei nicht existierendem einlaufendem Fluss können beliebig oft Signale empfangen werden
+
+#### Zeitereignis empfangen
+<img src="images/VL07_ad_9.png" width=200>
+
+- Aktion die unabhängig vom Zeitpunkt des Auftretens ein Signal sendet
+
+#### Beispiele
+##### Geldausgabe/Deckung bestätigen
+<img src="images/VL07_ad_10.png" width=1000>
+
+##### Asynchrones Ereignis/Asynchrones Zeitereignis
+<img src="images/VL07_ad_11.png" width=1000>
+
+##### Ereignisse
+<img src="images/VL07_ad_12.png" width=1000>
+<img src="images/VL07_ad_13.png" width=1000>
+<img src="images/VL07_ad_14.png" width=1000>
+
+#### Exception Handler/Unterbrechungsbereich
+<img src="images/VL07_ad_12.png" width=1000>
+
+### Unterbrechungsbereich
+<img src="images/VL07_ad_16.png" width=1000>
+
+- Motivation
+	- Man möchte Unterbrechungen modellieren (z.B. Exceptions)
+	- Und das Verhalten in einem Fehlerzustand beschreiben
+- Ein Unterbrechungsbereich umschließt eine oder mehrere Aktionen
+- Beim verlassen eines Bereiches über eine Unterbrechungskante...
+	- werden sämtliche Aktionen in dem Bereich unterbrochen
+	- werden alle vorhandenen Token verworfen
+	- wird der Aktivitätsablauf an dem jeweiligen Zielknoten fortgesetzt
+
+### Exception Handler
+- Bearbeitungselement für Ausnahmen, die bei Aktionsausführung auftreten
+- Auftreten von Exception: Prüfung ob Exception-Handler vorhanden ist
+- Exception-Handler ist dann für die Exception passend, wenn der Datenknoten der jeweiligen Aktion kompatibel zum Typ des Eingabeknotens (des Exception-Handlers) ist
+<img src="images/VL07_ad_17.png" width=1000>
+
+### CentralBuffer und Datastore
+<img src="images/VL07_ad_18.png" width=1000>
+
+## Aktivitätsdiagramme Beispiele
+
+### Aktivitätsdiagramme mit Objektfluss
+<img src="images/VL07_ad_19.png" width=1000>
+
+
 ## Aktivitätsdiagramme Beispiele
 
 ## Best Practices
