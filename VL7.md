@@ -31,14 +31,21 @@
 - Die Systemarchitektur anhand von Beschreibungen (Source Code, natürliche Sprache) zu verstehen, ist schwer und kostet Zeit
 - Daher wird die Systemarchitektur visuell auf abstraktem Niveau zum Beispiel als Client-Server-Architektur oder als Peer-to-Peer Architektur in Form eines „Box-and-arrows“-Diagramms
 <img src="images/VL07_systemarchitektur_beispiel.png" width=1000>
-- !!!Benutzen Sie dieselben Symbole für die gleichen Dinge | Fügen Sie eine Legende hinzu!!!
+
+- Benutzen Sie dieselben Symbole für die gleichen Dinge
+- Fügen Sie eine Legende hinzu
 
 #### Einordnung der Systemanalyse in Analogie zu einem Hausbau
 <img src="images/VL07_einordnung_systemanalyse.png" width=1000>
+
 - Das Wesentliche einer (Software)-Architektur lässt sich in der Regel nicht in einer Sicht allein darstellen, sondern man verwendet verschiedene Sichten
+
 - Für ein konkretes Softwaresystem wählt man „passende“ Sichten, um die Architektur darzustellen.
+
 - Die Architekturdokumentation hilft anderen und auch einem selbst, eine Software-Architektur zu verstehen und zu analysieren
+
 - In folgenden Projekten wird Wissen über den Architekturentwurf weitergegeben
+
 - Eine Methode, Softwarearchitektur darzustellen, ist über die objektorientierte Analyse mit UML-Diagrammen 
 
 #### UML-Modelle in der Objektorientierten Systemanalyse
