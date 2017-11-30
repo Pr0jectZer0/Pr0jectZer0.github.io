@@ -37,10 +37,15 @@
 
 #### Einordnung der Systemanalyse in Analogie zu einem Hausbau
 <img src="images/VL07_einordnung_systemanalyse.png" width=1000>
+
 - Das Wesentliche einer (Software)-Architektur lässt sich in der Regel nicht in einer Sicht allein darstellen, sondern man verwendet verschiedene Sichten
+
 - Für ein konkretes Softwaresystem wählt man „passende“ Sichten, um die Architektur darzustellen.
+
 - Die Architekturdokumentation hilft anderen und auch einem selbst, eine Software-Architektur zu verstehen und zu analysieren
+
 - In folgenden Projekten wird Wissen über den Architekturentwurf weitergegeben
+
 - Eine Methode, Softwarearchitektur darzustellen, ist über die objektorientierte Analyse mit UML-Diagrammen 
 
 #### UML-Modelle in der Objektorientierten Systemanalyse
