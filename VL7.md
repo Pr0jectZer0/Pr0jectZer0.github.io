@@ -85,7 +85,7 @@
 - Können über Kanten mit anderen Elementen verbunden werden.
 - Falls bei Aktionsstart oder Aktionsende Bedingungen zu beachten sind, können Notizzettel verwendet werden.
 
-<img src="images/VL07_Aktion_Kante.png" width=1000>
+<img src="images/VL07_Aktion_Kante.png" width=250>
 <img src="images/VL07_Aktion_Beispiel.png" width=1000>
 
 #### Initialknoten
@@ -135,7 +135,7 @@
 <img src="images/VL07_Wasch_Beispiel.png" width=1000>
 
 #### Objektknoten
-<img src="images/VL07_Objektknoten.png" width=1000>
+<img src="images/VL07_Objektknoten.png" width=250>
 
 #### Objektknoten Beispiel
 <img src="images/VL07_Objektknoten_beispiel.png" width=1000>
@@ -192,7 +192,10 @@
 <img src="images/VL07_konnektor.png" width=250>
 
 #### Konnektor - Beispiel
-<img src="images/VL07_konnektor_beispiel1.png" width=1000>
+##### Beispiel1
+<img src="images/VL07_konnektor_beispiel1.png" width=500>
+
+##### Beispiel2
 <img src="images/VL07_konnektor_beispiel2.png" width=1000>
 
 ### Softwareentwicklungsprozess
