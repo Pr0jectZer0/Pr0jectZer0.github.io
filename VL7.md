@@ -132,7 +132,7 @@
 <img src="images/VL07_Knoten_uebersicht.png" width=1000>
 
 #### Waschmaschinen Beispiel
-<img src="images/VL07_Wasch_Beispiel.png" width=1000>
+<img src="images/VL07_Wasch_Beispiel.png" width=500>
 
 #### Objektknoten
 <img src="images/VL07_Objektknoten.png" width=250>
@@ -196,7 +196,7 @@
 <img src="images/VL07_konnektor_beispiel1.png" width=500>
 
 ##### Beispiel2
-<img src="images/VL07_konnektor_beispiel2.png" width=1000>
+<img src="images/VL07_konnektor_beispiel2.png" width=500>
 
 ### Softwareentwicklungsprozess
 <img src="images/VL07_Softwareentwicklungsprozess.png" width=1000>
