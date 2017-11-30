@@ -76,6 +76,127 @@
 <img src="images/VL07_aktivitätsdiagramm_02.png" width=1000>
 <img src="images/VL07_aktivitätsdiagramm_03.png" width=1000>
 <img src="images/VL07_aktivitätsdiagramm_04.png" width=1000>
+<img src="images/VL07_aktivitätsdiagramm_notation_0" width=1000>
+
+### Grundlegende Elemente
+#### Aktion
+- Zentrales Element innerhalb eines Aktivitätsdiagramms
+- Modelliert einen einzelnen Schritt einer Aktivität
+- Können über Kanten mit anderen Elementen verbunden werden.
+- Falls bei Aktionsstart oder Aktionsende Bedingungen zu beachten sind, können Notizzettel verwendet werden.
+
+<img src="images/VL07_Aktion_Kante.png" width=1000>
+<img src="images/VL07_Aktion_Beispiel" width=1000>
+
+#### Initialknoten
+- Startpunkt eines Ablaufes
+- Es muss mindestens ein Initialknoten vorhanden sein
+- Es darf mehrere Initialknoten geben
+
+#### Aktivitätsendknoten
+- Beendet alle Aktionen und Kontrollflüsse
+- Es muss mindestend einen Aktivitätsknoten geben
+
+#### Ablaufendknoten
+- Beendet einen einzelnen Kontrollfluss
+- Konsumiert ein einzelnes Token
+
+#### Decision
+<img src="images/VL07_Decision.png" width=1000>
+
+- Verzweigung des Kontrollflusses
+- Besitzt ein oder mehrere Ausgänge, die jeweils mit bestimmten Bedingungen verknüpft sind (Guards)
+- Besitzt exakt einen Eingang
+
+#### Merge 
+<img src="images/VL07_Merge.png" width=1000>
+
+- Führt mehrere eingehende Kanten zu einer Ausgehenden Kante zusammen
+- Decision und Merge treten paarweise auf
+- Alle ausgehenden Kanten einer Decision müssen im selben Merge-Knoten zusammengeführt werden
+
+#### Fork
+<img src="images/VL07_Fork.png" width=1000>
+
+- Der eingehende Kontrollfluss wird auf mehrere ausgehende, nebenläufige Kontrollflüsse aufgeteilt
+- Keine Bedingung
+- Erlaubt die parallele Ausführung mehrer verschiedener Kontrollflüsse
+
+#### Join
+<img src="images/VL07_Join.png" width=1000>
+
+- Wartet auf alle eingehenden Kontrollflüsse bevor es weiter geht
+- Synchronisiert parallele Kontrollflüsse und vereint sie
+
+#### Kontrollknoten im Überblick
+<img src="images/VL07_Knoten_uebersicht.png" width=1000>
+
+#### Waschmaschinen Beispiel
+<img src="images/VL07_Wasch_Beispiel.png" width=1000>
+
+#### Objektknoten
+<img src="images/VL07_Objektknoten.png" width=1000>
+
+#### Objektknoten Beispiel
+<img src="images/VL07_Objektknoten_beispiel.png" width=1000>
+
+### Kanten (Kontrollfluss / Objektfluss)
+#### Kontrollfluss
+- Kante zwischen zwei Aktionen oder zwischen Aktion und Kontrollelement
+- Token dienen hier nur der Aktionsausführung und besitzen keine Daten
+
+#### Objektfluss
+- Kante mit mindestens einem Objektknoten
+- Kante hat ein Token, der Daten von oder zu Objektknoten transportiert
+
+#### Objektfluss Beispiel
+<img src="images/VL07_objektfluss_beispiel.png" width=1000>
+
+#### Pin-Notation 
+- Kurzschreibweise für einen Objektfluss
+- Der Objektknoten wird direkt an die Aktion angehängt
+- Die Ausgabe einer Aktion ist die Eingabe der nächsten Aktion
+- Beschriftung eines Pins: name:typ
+<img src="images/VL07_pin-notation.png" width=1000>
+
+### Ablaufmodell von Aktivitätsdiagrammen mit Token
+- Die Steuerung der Abläufe in einem Aktivitätsdiagramm erfolgt durch Token. (Kontrolltoken / Datentoken)
+- Ein Token definiert den aktuellen Zustand der Verarbeitung
+- Tokens werden erzeugt, wandern und verarbeitet Wanderung
+
+#### Erzeugung
+- Bei eingangslosen Knoten wird ein Token erzeugt (Startknoten, Signalempfangsknoten)
+- Ein Token pro ausgehenden Fluss
+
+#### Wanderung
+- Aktion startet, bei eintreffen des Tokens
+- Wenn die Aktion beendet wurde, wandert der Token weiter
+- Token wählt einen ausgehenden Fluss
+
+#### Verarbeiten
+- Bei einem Endknoten oder Aufspaltung / Synchronisation werden alle eingehenden Knoten verarbeitet
+
+#### Ablaufmodell von Aktivitätsdiagrammen mit Token - Beispiel
+<img src="images/VL07_ablaufmodell_token_beispiel.png" width=1000>
+
+#### Schachtelung von Aktivitäten - Beispiel
+<img src="images/VL07_schachtelung_aktivitäten_beispiel.png" width=1000>
+
+#### Gewicht einer Kante
+<img src="images/VL07_gewicht_kante.png" width=1000>
+
+#### Gewicht einer Kante - Beispiel
+<img src="images/VL07_gewicht_kante_beispiel.png" width=1000>
+
+#### Konnektor
+<img src="images/VL07_konnektor.png" width=1000>
+
+#### Konnektor - Beispiel
+<img src="images/VL07_konnektor_beispiel1.png" width=1000>
+<img src="images/VL07_konnektor_beispiel2.png" width=1000>
+
+### Softwareentwicklungsprozess
+<img src="images/VL07_Softwareentwicklungsprozess.png" width=1000>
 
 ## Aktivitätsdiagramme Beispiele
 
