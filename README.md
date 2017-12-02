@@ -30,7 +30,7 @@ Gruppe 3
 * <span style="color:green">__15.11.2017:__</span> Kramer (VL04), Deutsch, Stuwe, Penner (VL05)
 * <span style="color:green">__22.11.2017:__</span> Kröker, Reinke, Stuwe, Turon (VL06)
 * <span style="color:red">__29.11.2017:__</span> Dorsch, Paul (VL07)
-* <span style="color:red">__08.12.2017:__</span> TBD
+* <span style="color:red">__08.12.2017:__</span> Novakovic, Posselt, Wasilewski (VL08)
 * <span style="color:red">__13.12.2017:__</span> TBD
 * <span style="color:red">__20.12.2017:__</span> TBD
 
