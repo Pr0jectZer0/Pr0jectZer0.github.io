@@ -73,7 +73,10 @@ Definiert die Sichtbarkeit des Attributes fürandere Elemente
 
 #### Einordnung in den Entwicklungsprozess
 
+&nbsp;
 ![Systemanalyse](./images/VL08/systemanalyse.png)
+
+&nbsp;
 
 - Beschreibung der Anwendungsfälle -> Anforderungsanalyse.
 - Beschreibung der Akteure -> Anforderungsanalyse.
@@ -81,16 +84,24 @@ Definiert die Sichtbarkeit des Attributes fürandere Elemente
 - Spezifikation der Abläufe (z.B. Geschäftsvorfälle) mit Aktivitätsdiagrammen -> Letze Vorlesung.
 - Ermitteln von Analyseklassendiagramm mit Klassen, Attribute und Beziehungen und Methoden -> Heute.
 
+&nbsp;
 ![EntwicklerZUdomain_Experte](./images/VL08/entwicklerZUdomain_Experte.png)
 
+&nbsp;
+
 #### Das Domain Object Model(=Analyseklassendiagramm)
+
 - illustriert wichtige Konzepte der realen Welt und deren Beziehungen der Anwendungsdomäne
 - ist ein Modell von realen Konzepten und nicht von Software Komponenten, weil es „Dinge“ aus der realen Welt beschreibt und daher keine Beschreibung eines Software Designs ist
 - besteht aus statischen Elementen, in denen manchmal Attribute, aber keine Methoden definiert werden
 
+&nbsp;
 ![Analyseklassendiagram](./images/VL08/analyseklassendiagram.png)
 
+&nbsp;
+
 #### Strategien, um Klassen für Analyseklassendiagramm zu finden:
+
 1. Substantivmethode
 2. CRC-Methode (Class, Responsibility, Collaboration)
 
@@ -134,16 +145,16 @@ Definiert die Sichtbarkeit des Attributes fürandere Elemente
 - Vererbung
 - (Operationen)
 
-####Klassen
+#### Klassen
 
 - Text der Anforderungen ist Grundlage zum Finden erster Klassen
 - Substantive in Anforderungen und Glossar ansehen
 - Substantive können Klassen oder Attribute sein
 
 1. Substantive, die komplexe Dinge mit wichtigen Eigenschaften und Fähigkeiten beschreiben, werden als Klassen abgebildet 
-  - Personen, Gegenstände, komplexe Vorgänge (z. B. Bestellung)
+    - Personen, Gegenstände, komplexe Vorgänge (z. B. Bestellung)
 2. Substantive, die einfach strukturierte Dinge mit nur einer vorherrschenden Eigenschaft beschreiben, werden als Attribute abgebildet
-  - Name einer Person, Farbe eines Gegenstandes, Datum einer Bestellung
+    - Name einer Person, Farbe eines Gegenstandes, Datum einer Bestellung
 
 
 #### Instanzvariablen und Methoden
