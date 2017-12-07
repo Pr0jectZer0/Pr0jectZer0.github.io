@@ -306,3 +306,42 @@ Definiert die Anzahl der Instanzen, die unter diesem Attribut abgelegt werden k�
 
 
 ### Beispiel
+
+#### Vorgaben
+* In einer Hochschulverwaltung sind mehrere Personengruppen tätig.
+* Die Hochschule hat Angestellte, die Professoren, Labor-Ingenieure, Lehrbeauftragte, Sekretärinnen oder Tutoren sein können. 
+* An einer Hochschule studieren Studenten, die auch als Tutoren in einzelnen Lehrveranstaltungen eingesetzt werden können.
+* Jede Person hat einen Namen, Geburtsdatum und Geburtsort. 
+* Alle Angestellten verfügen über ein Gehaltskonto.
+* Dozenten haben einen akademischen Titel und leisten pro Semester eine bestimmte Anzahl Semesterwochenstunden (SWS).
+* Jeder Student hat eine identifizierende Matrikelnummer
+
+#### Erste Klassenstruktur
+
+* erstellung einer Liste, mit allen Substantiven der Problembeschreibung zur Identifizierung des Klassenkandidaten
+> Hochschulverwaltung, Personengruppen, Hochschule, Angestellte, Professoren, Labor-Ingenieure, Lehrbeauftragte, Sekretärinnen, Tutoren, Studenten, Person, Namen, Geburtsdatum, Geburtsort, Gehaltskonto, Dozenten, Titel, Semester, Anzahl, Semesterwochenstunden, Matrikelnummer.
+* Eliminierung aller überflüssigen (redundante oder irrelevante) Begriffe
+> Hochschulverwaltung, Personengruppen, Hochschule, Semester, Anzahl
+* Eliminierung aller Substantiven, die eine Eigenschaft anderer Substantiven bezeichnen
+> Namen, Geburtsdatum, Geburtsort, Gehaltskonto, Titel, Semesterwochenstunden, Matrikelnummer.
+
+| Klasse | Attribute |
+|:-------|:----------|
+| Person | Name, Geburtsdatum, Geburtsort |
+| Student | Matrikelnummer |
+| Angestellter | Gehaltskonto |
+| Tutor |  |
+| Dozent | Titel, Semesterwochenstunden |
+| Sekretärin |  |
+| Labor-Ingenieur |  |
+| Professor |  |
+| Lehrbeauftragter |  |
+| Studentischer Tutor | &nbsp; |
+
+Alle Klassen haben Attribute, die sind aber von den vorliegenden Anforderungen noch nicht zu entnehmen. Diese werden zunächst offen gelassen und in späteren Projektphasen ergänzt (iterativer Entwicklungsprozess).
+
+#### Klassendiagramm aus den Anforderungen 
+
+<center>
+<img src="images/VL08/Klassendiagramm_bsp.png" alt="Klassendiagramm_bsp" width="600"/>
+</center>
