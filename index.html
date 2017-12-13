@@ -14,9 +14,17 @@
   <script>
     docute.init({
       nav: [
-      {title: 'Home', path: '/'},
-      {title: 'Einleitung', path: '/VL1'},
-      {title: 'Vorgehensmodelle', path: '/VL2'}
+        {title: 'Home', path: '/'},
+        {title: 'Vorlesungen', type: 'dropdown', items: [
+          {title: 'VL01: Einleitung', path: '/VL1'},
+          {title: 'VL02: Vorgehensmodelle', path: '/VL2'},
+          {title: 'VL03: Agile Vorgehensmodelle', path: '/VL3'},
+          {title: 'VL04: Agile Workflows und Tools', path: '/VL4'},
+          {title: 'VL05: OOA/OOD mit UML-Diagrammen', path: '/VL5'},
+          {title: 'VL06: Anforderungsanalyse mit UML-Use Case Diagramm', path: '/VL6'},
+          {title: 'VL07: Systemanalyse mit Aktivitaetsdiagrammen', path: '/VL7'},
+          {title: 'VL08: Systemanalyse mit Analyseklassendiagrammen', path: '/VL8'}
+        ]}
       ],
       tocVisibleDepth: 3
     })
