@@ -62,7 +62,7 @@ versetzter Balken
 - Die Zeitlinie schreitet für alle Objekte gleich voran
 - Wird ein neues Objekt erstellt, wird es an der Erzeugungsstelle angegeben
 	- Eine new()-Nachricht zeigt auf das neue Objekt
-- Objektlöschung wird durch ein Kreutz am Ende der Zeitlinie angezeigt
+- Objektlöschung wird durch ein Kreuz am Ende der Zeitlinie angezeigt
 
 <img src="images/VL9/objekte.png" width=600>
 
