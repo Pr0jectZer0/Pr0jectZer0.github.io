@@ -79,7 +79,7 @@ versetzter Balken
 <img src="images/VL9/lebenslinien.png" width=700>
 
 ### Nachrichten
-
+  
 - **Synchrone Nachricht**
 	- Die Interaktion ist ein gemeinsames Ereignis zwischen Sender und Empfänger
 	- Keine Verzögerung
@@ -133,7 +133,7 @@ Markierung dargestellt werden
 - als Alternative zum Sequenzdiagramm
 - Interaktion zwischen den Objekten der Rollen, die Lebenslinien zugeordnet sind, sowie die Nachrichten, die zwischen Lebenslinien übergeben werden.
 
-**Beispiel: Kommunikationsdiagramm**
+**Beispiel: Kommunikationsdiagramm**  
 <img src="images/VL9/kommunikationsdiagramm.png" width=600>
 
 ### Zusammenfassung
