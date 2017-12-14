@@ -1,4 +1,4 @@
-# Vorlesung 9: Sequenzdiagramme
+﻿# Vorlesung 9: Sequenzdiagramme
 
 ## Einordnung Sequenzdiagramme
 
@@ -106,3 +106,36 @@ Markierung dargestellt werden
 <img src="images/VL9/methodenBsp.png" width=400>
 <img src="images/VL9/methodenBsp2.png" width=700>
 <img src="images/VL9/methodenBsp3.png" width=600>
+
+### Übersicht aller Steuerungsoperatoren
+
+<img src="images/VL9/steuerungsoperatoren.png" width=600>
+
+- Mit kombinierten Fragmenten können in Sequenzdiagrammen die Kontrollstrukturen höherer Programmiersprachen ausgedrückt werden. 
+- Jedes kombinierte Fragment wird als rechteckiger Block dargestellt. 
+- In der linken, oberen Ecke trägt er eine Bezeichnung, die den Typ der Kontrollstruktur angibt.
+
+- **Die wichtigsten kom­binierte Fragmente:**
+	- Parallele Ausführung: Nebenläufige Abläufe.
+	- Iterative Ausführung: die Operationen werden wiederholt.
+	- Bedingte Ausführung: das Rechteck wird durch gestrichelte Linien in eine oder mehrere Bereiche aufgeteilt und enthält eine Bedingung in eckigen Klammern. Wenn mehrere Bedingungen wahr sind, werden alle ausgeführt. Falls alle Bedingungen falsch sind, werden die Ausführungen des Operators übergangen.
+	- Optionale Ausführung: eine Vereinfachung der bedingten Ausführung mit nur einem Unterbereich.
+
+<img src="images/VL9/kombinierte_fragmente.png" width=600>
+
+- **Best Practices**
+	- In dem Sequenzdiagramm steht die zeitliche Abfolge und die Dynamik im Vordergrund.
+	- Objekte mit den Lebenslinien und Nachrichten werden so angeordnet, dass das Diagramm von oben nach unten (wegen der Zeit) und von links nach rechts (wegen der Schachtelung der Aufrufe) gelesen werden kann -> bessere Lesbarkeit
+	- Steuerungsoperatoren nur dann verwenden, wenn der Ablauf kompliziert ist und Wiederholungen bzw. optionale oder parallele Ausführungen enthält
+
+### Kommunikationsdiagramme
+
+- als Alternative zum Sequenzdiagramm
+- Interaktion zwischen den Objekten der Rollen, die Lebenslinien zugeordnet sind, sowie die Nachrichten, die zwischen Lebenslinien übergeben werden.
+
+**Beispiel: Kommunikationsdiagramm**
+<img src="images/VL9/kommunikationsdiagramm.png" width=600>
+
+### Zusammenfassung
+
+<img src="images/VL9/zusammenfassung.png" width=600>
