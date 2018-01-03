@@ -14,13 +14,21 @@
   <script>
     docute.init({
       nav: [
-      {title: 'Home', path: '/'},
-      {title: 'Einleitung', path: '/VL1'},
-      {title: 'Vorgehensmodelle', path: '/VL2'},
-      {title: 'Agile Vorgehensmodelle', path: '/VL3'},
-      {title: 'Agile Workflows und Tools', path: '/VL4'},
-      {title: 'OOA/OOD mit UML-Diagrammen', path: '/VL5'},
-      {title: 'VL6', path: '/VL6'}
+        {title: 'Home', path: '/'},
+        {title: 'Vorlesungen', type: 'dropdown', items: [
+          {title: 'VL01: Einleitung', path: '/VL1'},
+          {title: 'VL02: Vorgehensmodelle', path: '/VL2'},
+          {title: 'VL03: Agile Vorgehensmodelle', path: '/VL3'},
+          {title: 'VL04: Agile Workflows und Tools', path: '/VL4'},
+          {title: 'VL05: OOA/OOD mit UML-Diagrammen', path: '/VL5'},
+          {title: 'VL06: Anforderungsanalyse mit UML-Use Case Diagramm', path: '/VL6'},
+          {title: 'VL07: Systemanalyse mit Aktivitaetsdiagrammen', path: '/VL7'},
+          {title: 'VL08: Systemanalyse mit Analyseklassendiagrammen', path: '/VL8'},
+          {title: 'VL09: Einordnung Sequenzdiagramme', path: '/VL9'},
+          {title: 'VL10: Weitere UML-Diagramme', path: '/VL10'},
+          {title: 'VL11: Softwareentwurf und Softwarearchitektur', path: '/VL11'},
+          {title: 'VL12: MV* Architekturmuster', path: '/VL12'}
+        ]}
       ],
       tocVisibleDepth: 3
     })
