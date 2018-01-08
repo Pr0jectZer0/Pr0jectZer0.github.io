@@ -29,10 +29,13 @@ Gruppe 3
 * <span style="color:green">__08.11.2017:__</span> Elges, Köhn, Wulf (VL03)
 * <span style="color:green">__15.11.2017:__</span> Kramer (VL04), Deutsch, Stuwe, Penner (VL05)
 * <span style="color:green">__22.11.2017:__</span> Kröker, Reinke, Stuwe, Turon (VL06)
-* <span style="color:red">__29.11.2017:__</span> Dorsch, Paul (VL07)
-* <span style="color:red">__08.12.2017:__</span> TBD
-* <span style="color:red">__13.12.2017:__</span> TBD
-* <span style="color:red">__20.12.2017:__</span> TBD
+* <span style="color:green">__29.11.2017:__</span> Dorsch, Garb, Kleinke, Paul, Schäpsmeier (VL07)
+* <span style="color:green">__06.12.2017:__</span> Novakovic, Posselt, Wasilewski (VL08)
+* <span style="color:green">__13.12.2017:__</span> Kramer, Kühnert (VL09)
+* <span style="color:red">__20.12.2017:__</span> 
+  * Diagramme: Deutsch, Kramer,  Kröker, Kühnert, Schäpsmeier,  ...
+  * VL10: Deutsch, Penner, Posselt
+* <span style="color:green">__03.01.2018:__</span> Posselt (VL11, VL12), Reinke, Tauron (VL12)
 
 #### Hinweise zur Gestalltung
 

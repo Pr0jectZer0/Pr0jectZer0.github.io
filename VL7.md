@@ -317,16 +317,16 @@
     - Sind die Bedingungen eindeutig identifiziert?
     - Ist die Menge der Bedingungen vollständig und eindeutig?
 	
-### Beispiele:
-<img src="VL07_P59_UML-Beispiele.png" width=1000>
-<img src="VL07_P60_UML-Beispiele.png" width=1000>
+### UML-Beispiele:
+<img src="images/VL07_P59_UML-Beispiele.png" width=1000>
+<img src="images/VL07_P60_UML-Beispiele.png" width=1000>
 "Parallele Kanten immer wieder "synchronisieren"
-<img src="VL07_P61_UML-Beispiele.png" width=1000>
+<img src="images/VL07_P61_UML-Beispiele.png" width=1000>
 Aktivität wird durchgeführt, wenn über einen der eingehenden Kontrollflüsse die kontrolle ankommt (OR)
-<img src="VL07_P62_1_UML-Beispiele.png" width=160>
+<img src="images/VL07_P62_1_UML-Beispiele.png" width=160>
 Token werden, sobald möglich, an den Nachfolgerknoten weitergereicht
-<img src="VL07_P62_2_UML-Beispiele.png" width=500>
+<img src="images/VL07_P62_2_UML-Beispiele.png" width=500>
 
 ## Zusammenfassung
-<img src="VL07_P64_1_Zusammenfassung.png" width=500>
-<img src="VL07_P64_2_Zusammenfassung.png" width=500>
+<img src="images/VL07_P64_1_Zusammenfassung.png" width=500>
+<img src="images/VL07_P64_2_Zusammenfassung.png" width=500>
