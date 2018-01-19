@@ -33,9 +33,12 @@ Gruppe 3
 * <span style="color:green">__06.12.2017:__</span> Novakovic, Posselt, Wasilewski (VL08)
 * <span style="color:green">__13.12.2017:__</span> Kramer, Kühnert (VL09)
 * <span style="color:red">__20.12.2017:__</span> 
-  * Diagramme: Deutsch, Kramer,  Kröker, Kühnert, Schäpsmeier,  ...
-  * VL10: Deutsch, Penner, Posselt
+  * Diagramme: Deutsch, Kramer,  Kröker, Kühnert, Penner, Schäpsmeier
+  * VL10: Deutsch, Novakovic, Penner, Posselt
 * <span style="color:green">__03.01.2018:__</span> Posselt (VL11, VL12), Reinke, Tauron (VL12)
+* <span style="color:red">__10.01.2018:__</span> Alle
+* <span style="color:green">__17.01.2018:__</span>  Reinke, Kröker, Kühnert
+* <span style="color:red">__24.01.2018:__</span> 
 
 #### Hinweise zur Gestalltung
 
